@@ -1875,15 +1875,14 @@ Main Banner Area CSS
 
 .it-services-banner {
   position: relative;
-  z-index: 1;
+  z-index: 9;
   background-color: #ffffff;
   background-image: url(../images/banner-bg.png);
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 210px;
-  padding-bottom: 220px;
-  height: 40em;
+  padding-top: 60px;
+  padding-bottom: 40px
   
 }
 
@@ -8795,7 +8794,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-image a img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 100px 6px 100px 0;
   width: 100%;
 }
 
@@ -8873,6 +8872,12 @@ Blog Area CSS
   z-index: -1;
   bottom: 40px;
 }
+.post-image{
+  width: 450px;
+ 
+  margin-left: 50px;
+}
+
 
 .vector-shape1 img {
   -webkit-animation-name: rotatemetwo;
