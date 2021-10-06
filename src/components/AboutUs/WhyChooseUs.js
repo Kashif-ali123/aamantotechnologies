@@ -50,8 +50,8 @@ const WhyChooseUs = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
-                        <div className="how-its-work-image">
-                            <img src={howItWork} alt="banner" />
+                        <div className="how-its-work-image" >
+                            <img src={howItWork} alt="banner"  style={{height:"400px", width:"800px", marginTop: "100px"}} />
                         </div>
                     </div>
                 </div>
