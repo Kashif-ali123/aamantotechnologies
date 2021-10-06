@@ -74,7 +74,7 @@ Default CSS
 body {
   padding: 0;
   margin: 0;
-  font-size: 17px;
+  font-size: 20px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -106,7 +106,7 @@ p {
   line-height: 1.8;
   margin-bottom: 15px;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 p:last-child {
@@ -255,7 +255,7 @@ a:hover {
   margin-bottom: 15px;
   color: #ff5d22;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .section-title .sub-title img {
@@ -1067,6 +1067,7 @@ Main Banner Area CSS
   background-repeat: no-repeat;
   padding-top: 365px;
   padding-bottom: 350px;
+  
 }
 
 .main-banner .container-fluid {
@@ -1105,7 +1106,7 @@ Main Banner Area CSS
   display: inline-block;
   text-transform: uppercase;
   color: #ff5d22;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: -3px;
   margin-left: 30px;
@@ -1510,6 +1511,7 @@ Main Banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 200px;
+
 }
 
 .banner-area-content {
@@ -1602,7 +1604,7 @@ Main Banner Area CSS
   display: inline-block;
   text-transform: uppercase;
   color: #ff5d22;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: -3px;
   margin-left: 30px;
@@ -1985,7 +1987,7 @@ Solutions Area CSS
   color: #ff5d22;
   margin-top: 3px;
   position: relative;
-  font-size: 16.4px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -10333,7 +10335,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li .post-count {
-  font-size: 14px;
+  font-size: 20px;
   display: inline-block;
   position: relative;
   top: 1px;
@@ -10351,7 +10353,7 @@ Widget Sidebar CSS
   border: none;
   border-radius: 3px;
   font-weight: 700;
-  font-size: 14px !important;
+  font-size: 20px !important;
   margin-top: 8px;
   margin-right: 4px;
 }
@@ -10586,7 +10588,7 @@ Widget Sidebar CSS
 .widget-area .widget_recent_courses .item .info .title {
   margin-bottom: 0;
   line-height: 1.4;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -10616,7 +10618,7 @@ Widget Sidebar CSS
   padding: 15px 25px 15px 40px;
   color: #6b6b84;
   border: 1px solid #eeeeee;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -10805,7 +10807,7 @@ Profile Authentication Area CSS
   border-radius: 5px;
   padding: 14.5px 30px;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .login-form form button:hover {
@@ -10855,7 +10857,7 @@ Profile Authentication Area CSS
   border-radius: 5px;
   padding: 14.5px 30px;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .register-form form button:hover {
@@ -10919,7 +10921,7 @@ Coming Soon Area CSS
 .coming-soon-content #timer div span {
   display: block;
   margin-top: -2px;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -11070,7 +11072,7 @@ Privacy Policy Area CSS
 .privacy-policy-content .blockquote p, .privacy-policy-content blockquote p {
   margin-bottom: 0;
   line-height: 1.8;
-  font-size: 17px !important;
+  font-size: 20px !important;
   font-weight: 700;
 }
 
@@ -11091,7 +11093,7 @@ Privacy Policy Area CSS
   color: #6b6b84;
   line-height: 1.8;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*================================================
@@ -11120,7 +11122,7 @@ Terms of Service Area CSS
 .terms-of-service-content .blockquote p, .terms-of-service-content blockquote p {
   margin-bottom: 0;
   line-height: 1.8;
-  font-size: 17px !important;
+  font-size: 20px !important;
   font-weight: 700;
 }
 
@@ -11141,7 +11143,7 @@ Terms of Service Area CSS
   color: #6b6b84;
   line-height: 1.8;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*================================================
@@ -11170,7 +11172,7 @@ Purchase Guide Area CSS
 .purchase-guide-content .blockquote p, .purchase-guide-content blockquote p {
   margin-bottom: 0;
   line-height: 1.8;
-  font-size: 17px !important;
+  font-size: 20px !important;
   font-weight: 700;
 }
 
@@ -11191,7 +11193,7 @@ Purchase Guide Area CSS
   color: #6b6b84;
   line-height: 1.8;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*================================================
@@ -11226,7 +11228,7 @@ Membership Levels Area CSS
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 10px;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
 }
 
