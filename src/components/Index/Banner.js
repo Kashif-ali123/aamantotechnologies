@@ -11,12 +11,12 @@ const Banner = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="main-banner-content">
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <h1 style={{fontSize:"30px", marginTop:"500px"}}>Aamanto Technologies</h1>
+                                <h1 style={{fontSize:"30px", marginTop:"250px"}}>Aamanto Technologies</h1>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <p>Aamanto is an IT consulting company based in Toronto, Canada.</p>
-                                <p>We at Aamanto deliver management consulting, innovative business solutions, digital transformation, system integration, data science and artificial intelligence in cloud to our customers world wide.</p>
+                                <p >Aamanto is an IT consulting company based in Toronto, Canada.</p>
+                                <p >We at Aamanto deliver management consulting, innovative business solutions, digital transformation, system integration, data science and artificial intelligence in cloud to our customers world wide.</p>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInRight'>
@@ -30,13 +30,13 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-12">
+                    {/* <div className="col-lg-6 col-md-12">
                         <ReactWOW delay='.1s' animation='fadeInUp'>
-                            <div className="main-banner-layer">
+                            <div className="main-banner-layer"> */}
                                 {/* <img src={bannerImg} alt="banner" /> */}
-                            </div>
+                            {/* </div>
                         </ReactWOW>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
