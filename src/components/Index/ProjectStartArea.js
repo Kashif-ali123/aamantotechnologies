@@ -10,7 +10,7 @@ const ProjectStartArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="project-start-image">
-                            <img src={projectStart} alt="project" style={{width:"440px"}} />
+                            <img src={projectStart} alt="project" style={{width:"300px"}} />
                         </div>
                     </div>
 
