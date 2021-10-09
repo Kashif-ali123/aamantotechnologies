@@ -1,29 +1,29 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import BlogSidebar from './BlogSidebar'
-import img6 from '../../assets/images/blog/blog-img6.jpg'
-import img4 from '../../assets/images/blog/blog-img4.jpg'
-import img5 from '../../assets/images/blog/blog-img5.jpg'
-import img7 from '../../assets/images/blog/blog-img7.jpg'
-import img11 from '../../assets/images/blog/blog-img11.jpg'
-import img12 from '../../assets/images/blog/blog-img12.jpg'
-import user1 from '../../assets/images/user1.jpg'
-import user2 from '../../assets/images/user2.jpg'
-import user3 from '../../assets/images/user3.jpg'
-import user4 from '../../assets/images/user4.jpg'
+// import BlogSidebar from './BlogSidebar'
+// import img6 from '../../assets/images/blog/blog-img6.jpg'
+// import img4 from '../../assets/images/blog/blog-img4.jpg'
+// import img5 from '../../assets/images/blog/blog-img5.jpg'
+// import img7 from '../../assets/images/blog/blog-img7.jpg'
+// import img11 from '../../assets/images/blog/blog-img11.jpg'
+// import img12 from '../../assets/images/blog/blog-img12.jpg'
+// import user1 from '../../assets/images/user1.jpg'
+// import user2 from '../../assets/images/user2.jpg'
+// import user3 from '../../assets/images/user3.jpg'
+// import user4 from '../../assets/images/user4.jpg'
 
 const BlogDetailsContent = () => {
     return (
         <section className="blog-details-area ptb-100">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 col-md-12">
+                    <div className="col-lg-12 col-md-12">
                         <div className="blog-details-desc">
-                            <div className="article-image">
+                            {/* <div className="article-image">
                                 <img src={img6} alt="bb" />
-                            </div>
+                            </div> */}
 
-                            <div className="article-content">
+                            {/* <div className="article-content">
                                 <div className="entry-meta">
                                     <ul>
                                         <li>
@@ -50,20 +50,14 @@ const BlogDetailsContent = () => {
                                     </ul>
                                 </div>
 
-                                <h3>It’s Time To Think Differently About Homeschooling</h3>
+                                <h3>It’s Time To Think Differently About Homeschooling</h3> */}
+                                  <h3>6 Stages of Cloud Adoption </h3>
+                                  <p style={{textAlign:"justify"}}>Cloud is the future; in the coming time, everything will be handled within the cloud systems, and we won't have to worry about storage, encryption, or any other such factor. </p>
+                            <p style={{textAlign:"justify"}}>But do you think cloud adoption is easy?  </p>
+                            <p style={{textAlign:"justify"}}>If you're curious to learn more about cloud adoption, you've come to the right place. As we will discuss the many stages of cloud adoption in this article, we will better understand how to proceed with cloud migration and the various procedures that occur. </p>
+                            <p style={{textAlign:"justify"}}>Let's have a peek at the Cloud journey before moving on.</p>
 
-                                <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-
-                                <blockquote>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                    <cite>Tom Cruise</cite>
-                                </blockquote>
-
-                                <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
-
-                                <ul className="wp-block-gallery columns-3">
+                                {/* <ul className="wp-block-gallery columns-3">
                                     <li className="blocks-gallery-item">
                                         <figure>
                                             <img src={img4} alt="bb" />
@@ -81,34 +75,52 @@ const BlogDetailsContent = () => {
                                             <img src={img7} alt="bb" />
                                         </figure>
                                     </li>
-                                </ul>
+                                </ul> */}
 
-                                <h3>Four major elements that we offer:</h3>
+                                <h3 style={{marginTop:"35px"}}>What is Cloud Journey? </h3>
 
-                                <ul className="features-list">
+                                {/* <ul className="features-list">
                                     <li><i className='bx bx-badge-check'></i> Scientific skills for getting a better result</li>
                                     <li><i className='bx bx-badge-check'></i> Communication skills to getting in touch</li>
                                     <li><i className='bx bx-badge-check'></i> A career overview opportunity available</li>
                                     <li><i className='bx bx-badge-check'></i> A good work environment for work</li>
-                                </ul>
+                                </ul> */}
+                                <p style={{textAlign:"justify"}}> The cloud has established itself as the foundation for enterprises to transform, differentiate, and achieve a competitive edge. As they work to expand the usage of cloud services across the business, many firms are focusing on cloud-first strategies. According to a recent Gartner survey, 40% of firms in North America aim to spend the majority of new or extra spending on a cloud.</p>
+                                <p style={{textAlign:"justify"}}> In short, a cloud journey is a process of migrating all of your business operations to the cloud format, which will be entirely managed by external service providers and can be accessed through the internet. </p>
+                                <p style={{textAlign:"justify"}}>This is not only for those who want to bring their products on the cloud platforms but also for those who want to take their products from one cloud platform to another. Under the cloud migration process, you would notice data movements, recreating the overall resources for computing, transitioning applications to the complete cloud infrastructure and many more. </p>
+                                <p style={{textAlign:"justify"}}>It has a lot of advantages, including cost savings, increased resilience, greater performance, and more.</p>
+                                <h3 style={{marginTop:"35px"}}><u>6 Stages of a Cloud Adoption Journey:</u> </h3>
+                                <p style={{textAlign:"justify"}}>Most people think that a cloud journey is all about the technical changes that are involved in the framework of your products and services. But that's not the complete truth, as there are several changes and stages of a cloud migration journey. </p>
+                                 <p style={{textAlign:"justify"}}>In this section, we are going to discuss everything about those different stages of a cloud journey. </p>
 
-                                <h3>Setting the mood with incense</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-
-                                <h3>The rise of marketing and why you need it</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                            </div>
+                                <h3>1. Create a multi-cloud and cloud-first strategy: </h3>
+                                <p style={{textAlign:"justify"}}>A cloud-first approach should go beyond the IT department's purview. It must be comprehended and accepted by the entire organization. As a result, IT organizations must concentrate on more than just the technical aspects of a cloud-first strategy. They must evangelize the benefits of cloud computing to company executives to assist them in developing and extracting business benefits that will give them a competitive advantage and increase profits.</p>
+                                <p style={{textAlign:"justify"}}>The phrase "cloud-first" does not imply "cloud always." The long-term goal for some firms may be to migrate all applications out of their data centers. Others may define cloud-first as shifting a portion of their apps to the public cloud". Regardless of the approach, it is essential to prioritize investments to enhance the organization's use of cloud services.</p>
+                                <h3>2. Conduct workload placement reports daily:</h3>
+                                <p style={{textAlign:"justify"}}>Because the workload placement, for example, in the on-premises data center was often a given conclusion, assessments have traditionally focused heavily on feature comparisons to alternative solutions. Yet, in the cloud era, new extended possibilities for stack element placement and ownership become available, and traditional workload life cycle management models must be updated.</p>
+                                <p style={{textAlign:"justify"}}>Ongoing workload placement analysis entails reassessing workloads frequently, determining if the existing execution venue adequately fulfills the organization's demands and whether moving to a different model provides more value without putting the organization's operations at risk.</p>
+                                <h3>3. Make a strategy for cloud adoption competence:</h3>
+                                <p style={{textAlign:"justify"}}>Cloud projects are complicated, and while it takes time for businesses to develop the appropriate skill sets across all of the relevant functional areas, they must also continue to enhance processes as they go along their maturation path. A most successful firms meticulously plan out a multiyear effort to improve their cloud adoption, concentrating on numerous streams of work across multiple stages of maturity.</p>
+                                <h3>4. Develop multi-cloud governance and management mechanism:</h3>
+                                <p style={{textAlign:"justify"}}>Considerably with a single cloud provider, cloud computing governance is problematic. It becomes even more difficult as enterprises go to multi-cloud. Cloud providers provide on-demand, self-service services with infinite capacity, finding it challenging for businesses to see and manage what is being used. As a reason, enterprises must manage cloud service usage per provider and cloud service consumption across providers. It is untenable to govern and manage the environment without visibility into consumption.</p>
+                                <h3>5. Create a tooling approach for multicloud maintenance: </h3>
+                                <p style={{textAlign:"justify"}}>Selecting and implementing the most appropriate cloud management solutions can help organizations establish a cloud management tools strategy. However, a well-defined, systematic approach to solidifying criteria and matching tools to these requirements is required to develop a coherent cloud management tooling approach. The goal is to reduce the number of tools required while still meeting all management requirements.</p>
+                                <p style={{textAlign:"center" }}>"Organizations should prioritize the use of the cloud platform's native toolset."</p>
+                                <p style={{textAlign:"justify"}}>The optimal option is a mix of solutions based on the desired cross-platform consistency and platform-specific functionality. In all circumstances, companies should emphasize using the cloud platform's core toolset, supplementing where necessary with third-party cloud management platforms, cloud management point tools, DIY alternatives, and outsourcing."</p>
+                                <h3>6. Examine the criteria for multi-cloud SaaS integration:</h3>
+                                <p style={{textAlign:"justify"}}>Organizations can give the best options to people in charge of extending and integrating SaaS systems by regularly analyzing requirements. For example, instead of using a PaaS technology that may have a cost-per solution, organizations may receive a greater return from an existing SaaS service by transferring some applications and interfaces to it. To maintain the right combination of SaaS-provided capabilities and PaaS technologies, enterprises must regularly analyze their demands and compare them to the possibilities of a SaaS solution.</p>
+                            {/* </div> */}
 
                             <div className="article-footer">
-                                <div className="article-tags">
+                                {/* <div className="article-tags">
                                     <span><i className='bx bx-purchase-tag'></i></span>
 
                                     <Link to="/blog">Fashion</Link>
                                     <Link to="/blog">Games</Link>
                                     <Link to="/blog">Travel</Link>
-                                </div>
+                                </div> */}
 
-                                <div className="article-share">
+                                {/* <div className="article-share">
                                     <ul className="social">
                                         <li><span>Share:</span></li>
                                         <li>
@@ -125,17 +137,17 @@ const BlogDetailsContent = () => {
                                             <Link to="https://www.instagram.com/" className="linkedin" target="_blank" rel="noreferrer">
                                                 <i className='bx bxl-instagram'></i>
                                             </Link>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                        {/* <li>
                                             <Link to="https://www.linkedin.com/" className="instagram" target="_blank" rel="noreferrer">
                                                 <i className='bx bxl-linkedin'></i>
                                             </Link>
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
+                                </div>*/}
+                            </div> 
 
-                            <div className="article-author">
+                            {/* <div className="article-author">
                                 <div className="author-profile-header"></div>
                                 <div className="author-profile">
                                     <div className="author-profile-title">
@@ -165,8 +177,8 @@ const BlogDetailsContent = () => {
                                         </Link>
                                     </div>
                                 </div>
-        
-                                <div className="next-link-wrapper">
+         */}
+                                {/* <div className="next-link-wrapper">
                                     <div className="info-next-link-wrapper">
                                         <Link to="#">
                                             <span className="next-link-info-wrapper">
@@ -271,9 +283,9 @@ const BlogDetailsContent = () => {
                                                 </ol>
                                             </li>
                                         </ol>
-                                    </li>
+                                    </li> */}
 
-                                    <li className="comment">
+                                    {/* <li className="comment">
                                         <div className="comment-body">
                                             <div className="comment-meta">
                                                 <div className="comment-author vcard">
@@ -287,9 +299,9 @@ const BlogDetailsContent = () => {
                                                         <span>April 24, 2019 at 10:59 am</span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> */}
 
-                                            <div className="comment-content">
+                                            {/* <div className="comment-content">
                                                 <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                             </div>
 
@@ -298,9 +310,9 @@ const BlogDetailsContent = () => {
                                                     Reply
                                                 </Link>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        <ol className="children">
+                                        {/* <ol className="children">
                                             <li className="comment">
                                                 <div className="comment-body">
                                                     <div className="comment-meta">
@@ -308,9 +320,9 @@ const BlogDetailsContent = () => {
                                                             <img src={user1} className="avatar" alt="uu" />
                                                             <b className="fn">James Anderson</b>
                                                             <span className="says">says:</span>
-                                                        </div>
+                                                        </div> */}
             
-                                                        <div className="comment-metadata">
+                                                        {/* <div className="comment-metadata">
                                                             <a href="#">
                                                                 <span>April 24, 2019 at 10:59 am</span>
                                                             </a>
@@ -330,9 +342,9 @@ const BlogDetailsContent = () => {
                                             </li>
                                         </ol>
                                     </li>
-                                </ol>
+                                </ol> */}
 
-                                <div className="comment-respond">
+                                {/* <div className="comment-respond">
                                     <h3 className="comment-reply-title">Leave a Reply</h3>
 
                                     <form className="comment-form">
@@ -365,14 +377,14 @@ const BlogDetailsContent = () => {
                                             <input type="submit" name="submit" id="submit" className="submit" value="Post A Comment" />
                                         </p>
                                     </form>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div>*/}
                         </div>
-                    </div>
+                    </div> 
 
-                    <div className="col-lg-4 col-md-12">
+                    {/* <div className="col-lg-4 col-md-12">
                         <BlogSidebar />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
