@@ -127,12 +127,12 @@ const Management = () => {
                                     Agile Challenges teams are facing today with Software Development
                                 </span>
                                 {/* <h2>Drive Digital Revolution Through Data Science</h2> */}
-                             
+                               <ul>
                                   <li ><p>Honoring new processes / procedures</p></li>
                                   <li ><p>Communicating effectively with stakeholders and business owners.</p></li>
                                   <li ><p>Adapting to changes in business requirements while minimizing wasted effort.</p></li>
                                   <li ><p>Adaptive Change: Coming to Terms with Iterative Work</p></li>
-                            
+                                </ul>
 
                               <p style={{marginLeft:"15px"}}>Our in house lean agile methodology mitigates those risks and ensure each area is focused and risks are mitigated ensuring smooth operations and continuous delivery.</p>
                                 {/* <Link to="/about-us" className="default-btn"  style={{marginLeft:"30px"}}>

@@ -24,7 +24,7 @@ but don't hurry.</h2>
                         {/* <div className="single-solutions-box"> */}
                             <div className="icon">
                             <ReactWOW delay='.5s' animation='fadeInLeft'>
-                            <img src={team3} alt="about" style={{marginLeft:"250px"}} />
+                            <img src={team3} alt="about" style={{width:"1500px"}} />
                             </ReactWOW>
                             </div>
                             <ReactWOW delay='.5s' animation='fadeInRight'>
