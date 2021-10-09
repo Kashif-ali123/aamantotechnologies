@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/App/Layout"
 import Navbar from "../components/App/Navbar"
-import PageBanner from '../components/Common/PageBanner'
+import BlogBanner from '../components/Common/BlogBanner'
 import Footer from "../components/App/Footer"
 import BlogDetailsContent from '../components/BlogContent/BlogDetailsContent'
 
@@ -9,12 +9,13 @@ const BlogDetails = () => {
     return (
         <Layout>
             <Navbar />
-            <PageBanner
+            {/* <PageBanner
                 pageTitle="Blog Details" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Blog Details" 
-            /> 
+            />  */}
+            <BlogBanner />
             <BlogDetailsContent />
             <Footer />
         </Layout>
