@@ -1,9 +1,10 @@
 import React from 'react'
+import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
 // import Banner1 from './Banner1'
-import scientist1 from '../../assets/images/scientist/scientist1.png'
-import scientist2 from '../../assets/images/scientist/scientist2.png'
-import scientist3 from '../../assets/images/scientist/scientist3.png'
+import scientist1 from '../../assets/images/icons/icon1.png'
+import scientist2 from '../../assets/images/icons/icon2.png'
+import scientist3 from '../../assets/images/icons/icon3.png'
 import scientist11 from '../../assets/images/scientist/scientist11.jpg'
 import scientist17 from '../../assets/images/scientist/scientist17.png'
 import scientist18 from '../../assets/images/scientist/scientist18.png'
@@ -17,64 +18,68 @@ const ServicesOne = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                             <img src={scientist1} alt="about" />
                             </div>
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Software Development
                                 </Link>
                             </h3>
                             <p style ={{textAlign:"justify"}}>Our Software Development Life Cycle methodology and practices encourage our customers to perform their operations efficiently and productively. We continue to transform many ideations into viable products for many of our clients worldwide.</p>
                             <p style ={{textAlign:"justify"}}>Our team is professional and very experienced in full stack software development with structured and non-structured databases.</p>
-                            <p style ={{textAlign:"justify"}}>Our security teams ensure the products are designed, developed and tested with latest security solutions in the market while ensuring performance and reliability.</p>
+                            {/* <p style ={{textAlign:"justify"}}>Our security teams ensure the products are designed, developed and tested with latest security solutions in the market .</p> */}
 
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                             <img src={scientist2} alt="about" />
                             </div>
-   
+                            <ReactWOW delay='.5s' animation='fadeInDown'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Data Science
                                 </Link>
                             </h3>
 
                             <p style={{textAlign:"justify"}}>At Aamanto – we understand that data is our gateway to increasing customer engagement, satisfaction, and building the products that our clients need.</p>
                             <p style={{textAlign:"justify"}}>By applying cutting-edge machine learning, data analysis and data visualization techniques to our clients’ data – we are able to derive insights that help our clients solve complex business problems, uncover hidden trends, explain historical events, and predict future behavior.</p>
-                            <p style={{textAlign:"justify"}}>Rest assured – if you have data, Aamanto can help you gain a competitive edge by allowing you to make smart data-driven decisions.</p>
+                            {/* <p style={{textAlign:"justify"}}>Rest assured – if you have data, Aamanto can help you gain a competitive edge by allowing you to make smart data-driven decisions.</p> */}
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                             <img src={scientist3} alt="about" />
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInUp'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Cloud Technologies
                                 </Link>
                             </h3>
 
                             <p style={{textAlign:"justify"}}>Transformation is a complex process that requires intricate planning and flawless execution.</p>
                             <p style={{textAlign:"justify"}}>A single misstep can prove to be costly and time consuming.</p>
-                            <p style={{textAlign:"justify"}}>Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
+                            <p style={{textAlign:"justify"}}>Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management .</p>
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
 
@@ -83,20 +88,20 @@ const ServicesOne = () => {
                             {/* <div className="icon">
                                 <i className="flaticon-segmentation"></i>
                             </div> */}
-
+                           <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 WHY CHOOSE US
 
                                 </Link>
                             </h3>
                             <br></br>
-                            <h2>
+                            <h3>
                                 <Link to="/service-details">
                                 Our Technologies
 
                                 </Link>
-                            </h2>
+                            </h3>
                             <br></br>
                             <p>Our developers are experienced in a wide range of technologies and offerings more everyday.</p>
                            
@@ -104,36 +109,37 @@ const ServicesOne = () => {
                                 View Details
                             </Link> */}
                         {/* </div> */}
+                        </ReactWOW>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                                 {/* <i className="flaticon-analytics"></i> */}
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Cloud Architecture
                                 </Link>
                             </h3>
 
-                            <p style={{textAlign:"justify"}}>Cloud Architecture establishment and management of public and private cloud platforms.  We work with Microsoft Azure, Google Cloud Platform and Amazon Web Services to provide IaaS, PaaS, FaaS, and SaaS Solutions.</p>
-                            
+                            <p style={{textAlign:"justify"}}>Cloud Architecture establishment and management of public and private cloud platforms. </p>
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                                 {/* <i className="flaticon-settings"></i> */}
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInRight'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Web & Mobile
                                 </Link>
                             </h3>
@@ -143,25 +149,29 @@ const ServicesOne = () => {
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         {/* <div className="single-solutions-box"> */}
+
                         <div className="image">
+                        <ReactWOW delay='.5s' animation='fadeInLeft'>
                                 <img src={scientist11} alt="about" />
+                                </ReactWOW>
                             </div>
 
                           
                         {/* </div> */}
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                             <div className="icon">
                                 {/* <i className="flaticon-settings"></i> */}
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Internet of Things (IoT)
                                 </Link>
                             </h3>
@@ -171,6 +181,7 @@ const ServicesOne = () => {
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
@@ -178,9 +189,9 @@ const ServicesOne = () => {
                             <div className="icon">
                                 {/* <i className="flaticon-settings"></i> */}
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Product Design
                                 </Link>
                             </h3>
@@ -191,55 +202,65 @@ const ServicesOne = () => {
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
+                       
                         <div className="image">
+                        <ReactWOW delay='.5s' animation='fadeInLeft'>
                                 <img src={scientist17} alt="about"  />
+                                </ReactWOW>
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
 
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Data Science Solutions
                                 </Link>
                             </h3>
 
-                            <p style={{textAlign:"justify"}}>With so much business conducted in the digital realm, you’re gathering tons of data each day on your clients. Collecting and analyzing that data leads to more informed business decisions that target your customers. The more you know about their desires and fears, their purchasing habits and online behaviors, the better you can meet or exceed their needs with your products or services.</p>
+                            <p style={{textAlign:"justify"}}>With so much business conducted in the digital realm, you’re gathering tons of data each day on your clients. Collecting and analyzing that data leads to more informed business decisions that target your customers. </p>
                             
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                         <div className="image">
+                        <ReactWOW delay='.5s' animation='fadeInLeft'>
                                 <img src={scientist18} alt="about"  />
+                                </ReactWOW>
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 Artificial Intelligence (AI)
                                 </Link>
                             </h3>
 
-                            <p style={{textAlign:"justify"}}>At its simplest form, artificial intelligence is a field, which combines computer science and robust datasets, to enable problem-solving. It also encompasses sub-fields of machine learning and deep learning, which are frequently mentioned in conjunction with artificial intelligence. These disciplines are comprised of AI algorithms which seek to create expert systems which make predictions or classifications based on input data.</p>
+                            <p style={{textAlign:"justify"}}>At its simplest form, artificial intelligence is a field, which combines computer science and robust datasets, to enable problem-solving. It also encompasses sub-fields of machine learning and deep learning. </p>
                             
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
+                        <div className="single-solutions-box" >
                         <div className="image">
+                        <ReactWOW delay='.5s' animation='fadeInLeft'>
                                 <img src={scientist20} alt="about"  />
+                                </ReactWOW>
                             </div>
-
+                            <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <h3>
-                                <Link to="/service-details">
+                                <Link to="#">
                                 IT Automation
                                 </Link>
                             </h3>
@@ -249,9 +270,11 @@ const ServicesOne = () => {
                             {/* <Link className="view-details-btn" to="/service-details">
                                 View Details
                             </Link> */}
+                            </ReactWOW>
                         </div>
                     </div>
                 </div>
+                <ReactWOW delay='.5s' animation='fadeInLeft'>
                 <h3>Software Development</h3>
                                 <p>We offer software development services through our skilled staff to ensure your product is a fit for the modern digital arena. We have the combination of experience delivering critical projects, as well as the requisite skills in software development, cloud technologies and project management to make your project a success. Our agile methodology ensures that the client is always involved in the design and development process.</p>
 
@@ -265,7 +288,8 @@ const ServicesOne = () => {
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Mobile: Android, iOS, React Native, Hybrid Mobile Solutions</li>
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Database Related: MongoDB, PostGreSQL, MySQL, MS SQL Server, MySQL, Oracle, Sybase etc.</li>
                                 </ul>
-
+                                 </ReactWOW>
+                                 <ReactWOW delay='.5s' animation='fadeInRight'>
                                 <h3>Data Science</h3>
                                 <p>At Aamanto – we understand that data is our gateway to increasing customer engagement, satisfaction, and building the products that our clients need. By applying cutting-edge machine learning, data analysis and data visualization techniques to our clients’ data – we are able to derive insights that help our clients solve complex business problems, uncover hidden trends, explain historical events, and predict future behavior. We provide data science services for all forms, sizes, and sources of data across all kinds of different industries. Rest assured – if you have data, Aamanto can help you gain a competitive edge by allowing you to make smart data-driven decisions.</p>
                                 <h4>Data Science and Analytics Offerings</h4>
@@ -281,7 +305,8 @@ const ServicesOne = () => {
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Content Optimization</li>
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Dashboard Presentation</li>
                                 </ul>
-
+                               </ReactWOW>
+                               <ReactWOW delay='.5s' animation='fadeInLeft'>
                                 <h3>Cloud Transition & Adoption</h3>
                                 <p>Transformation is a complex process that requires intricate planning and flawless execution. A single misstep can prove to be costly and time consuming. Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
                                 <h5>Service Offerings</h5>
@@ -310,6 +335,8 @@ const ServicesOne = () => {
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> It’s scalable. You have the ability to scale up or down based on business growth or needs.</li>
                                     
                                 </ul>
+                                </ReactWOW>
+                                <ReactWOW delay='.5s' animation='fadeInRight'>
                                 <h3>IT Automation</h3>
                                 <p>We drive innovation and enhance productivity through our adoption of IT automation. IT automation allows software to perform easily repeatable processes – resulting in less manual intervention by human workers. By utilizing IT automation to repeat a set of instructions/policies, you can save cost by allocating your staff to more strategic work. Furthermore, IT automation reduces the chances of human error and security breaches.</p>
                                 <h5>Automation Solutions We Offer</h5>
@@ -323,6 +350,7 @@ const ServicesOne = () => {
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Security automation</li>
                                     <li><i className='bx bx-badge-check' style={{color:"red"}}></i> Storage automation</li>
                                 </ul>
+                                </ReactWOW>
             </div>
         </section>
         </>
