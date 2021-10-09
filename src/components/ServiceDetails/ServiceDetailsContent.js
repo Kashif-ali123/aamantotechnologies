@@ -1,11 +1,12 @@
 import React from 'react'
 import ServiceSidebar from './ServiceSidebar'
-import details1 from '../../assets/images/services/services-details1.jpg'
+import details1 from '../../assets/images/services/services-details6.jpg'
 import project2 from '../../assets/images/projects/project2.jpg'
-import charts from '../../assets/images/services/charts.jpg'
+import charts from '../../assets/images/services/charts1.jpg'
 
 const ServiceDetailsContent = () => {
     return (
+        <>
         <section className="services-details-area ptb-100">
             <div className="container">
                 <div className="row">
@@ -15,10 +16,10 @@ const ServiceDetailsContent = () => {
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title">AI & ML Development</span>
+                            <span className="sub-title"><h1>Software Development</h1></span>
                             <h3>About this Services</h3>
-                            <p>Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.</p>
-
+                            <p>Our Software Development Life Cycle methodology and practices encourage our customers to perform their operations efficiently and productively. We continue to transform many ideations into viable products for many of our clients worldwide.</p>
+                             <p>Our team is professional and very experienced in full stack software development with structured and non-structured databases.</p>
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="image">
@@ -30,72 +31,70 @@ const ServiceDetailsContent = () => {
                                     <div className="content">
                                         <h3>Important Facts</h3>
                                         <ul>
-                                            <li>The Field of Data Science</li>
+                                            <li>The Field of Software Development</li>
                                             <li>The Problem</li>
                                             <li>The Solution</li>
                                             <li>The Skills</li>
-                                            <li>Statistics</li>
-                                            <li>Mathematics</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                            <p>We offer software development services through our skilled staff to ensure your product is a fit for the modern digital arena. We have the combination of experience delivering critical projects, as well as the requisite skills in software development, cloud technologies and project management to make your project a success. Our agile methodology ensures that the client is always involved in the design and development process.</p>
                             <h3>Application Areas</h3>
 
                             <div className="row">
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-factory"></i>
                                         </div>
-                                        Manufacturing
+                                        Systems Developer
                                     </div>
                                 </div>
             
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-hospital"></i>
                                         </div>
-                                        Healthcare
+                                        Software Engineer
                                     </div>
                                 </div>
             
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-tracking"></i>
                                         </div>
-                                        Automobile
+                                        Mobile Web Developer
                                     </div>
                                 </div>
             
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-investment"></i>
                                         </div>
-                                        Banking
+                                        Applications Analyst
                                     </div>
                                 </div>
             
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-house"></i>
                                         </div>
-                                        Real Estate
+                                        Application Engineer
                                     </div>
                                 </div>
             
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Logistics
+                                        Computer Programmer
                                     </div>
                                 </div>
                             </div>
@@ -105,25 +104,34 @@ const ServiceDetailsContent = () => {
                                 <li><span>JavaScript</span></li>
                                 <li><span>Python</span></li>
                                 <li><span>Java</span></li>
-                                <li><span>C/CPP</span></li>
+                                <li><span>React Js </span></li>
                                 <li><span>PHP</span></li>
                                 <li><span>Swift</span></li>
                                 <li><span>C# (C- Sharp)</span></li>
-                                <li><span>Ruby</span></li>
-                                <li><span>SQL</span></li>
+                                <li><span>Reactive Native</span></li>
+                                <li><span>Angular</span></li>
+                                <li><span>Node Js</span></li>
+                                <li><span>MongoDB</span></li>
+                                <li><span>MYSQL</span></li>
+
+                                
                             </ul>
                             <div className="charts-image">
                                 <img src={charts} alt="about" />
                             </div>
                         </div>
                     </div>
-
+                    
                     <div className="col-lg-4 col-md-12">
                         <ServiceSidebar />
                     </div>
-                </div>
+                    </div>
             </div>
-        </section>
+            </section>
+             
+ </>
+            
+       
     )
 }
 

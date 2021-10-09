@@ -6,33 +6,33 @@ const ServiceSidebar = () => {
         <div className="services-details-info">
             <ul className="services-list">
                 <li>
-                    <Link to="/service-details" className="active">
-                        AI & ML Development
+                    <Link to="/service-details" >
+                    Software Development
                     </Link>
                 </li>
                 <li>
-                    <Link to="/service-details">
-                        Data Analytics
+                    <Link to="/service-deatils"  >
+                     Cloud Adoption
                     </Link>
                 </li>
                 <li>
-                    <Link to="/service-details">
-                        Data Science
+                    <Link to="/services-data"  >
+                   Data Science
                     </Link>
                 </li>
-                <li>
-                    <Link to="/service-details">
-                        Artificial Intelligence
+                {/* <li>
+                    <Link to="/se">
+                    Database Solutions
                     </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <Link to="/service-details">
                         Data Visualization
                     </Link>
-                </li>
+                </li> */}
             </ul>
 
-            <div className="download-file">
+            {/* <div className="download-file">
                 <h3>Brochures</h3>
 
                 <ul>
@@ -47,7 +47,7 @@ const ServiceSidebar = () => {
                         </Link>
                     </li>
                 </ul>
-            </div>
+            </div> */}
 
             <div className="services-contact-info">
                 <h3>Contact Info</h3>
@@ -58,21 +58,21 @@ const ServiceSidebar = () => {
                             <i className='bx bx-user-pin'></i>
                         </div>
                         <span>Phone:</span>
-                        <a href="tel:+21453545413">+2145 354 5413</a>
+                        <a href="tel:+1 (833) 540-1866">+1 (833) 540-1866</a>
                     </li>
                     <li>
                         <div className="icon">
                             <i className='bx bx-map'></i>
                         </div>
                         <span>Location:</span>
-                        New York, USA
+                        10 Streamside Street Kleinburg, Ontario Canada L4H 4V3
                     </li>
                     <li>
                         <div className="icon">
                             <i className='bx bx-envelope'></i>
                         </div>
                         <span>Email:</span>
-                        <a href="mailto:hello@tarn.com">hello@tarn.com</a>
+                        <a href="mailto:info@aamanto.com">info@aamanto.com</a>
                     </li>
                 </ul>
             </div>
