@@ -1,6 +1,12 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
+import project1 from '../../assets/images/projects/project1.jpg'
+import project2 from '../../assets/images/projects/project2.jpg'
+import project3 from '../../assets/images/projects/project3.jpg'
+import project4 from '../../assets/images/projects/project4.jpg'
+import project5 from '../../assets/images/projects/project5.jpg'
+import project6 from '../../assets/images/projects/project6.jpg'
 
 const Solutions = () => {
     return (
@@ -16,159 +22,127 @@ const Solutions = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-rocket"></i>
-                            </div> */}
-                            <h3>
-                                <Link to="#">
-                              CRM
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project1} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
                                 </Link>
-                            </h3>
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                             {/* <ul>
-                                <li><p style={{marginRight:"20px"}}>Website Development</p></li>
-                                <li><p style={{marginRight:"35px"}}>Mobile Applications</p></li>
-                                <li><p style={{marginRight:"35px"}}>Database Solutions</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                     CRM
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-laptop"></i>
-                            </div> */}
 
-                            <h3>
-                                <Link to="#">
-                              E Commerce
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project2} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
                                 </Link>
-                            </h3>
+                            </div>
 
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            {/* <ul>
-                                <li>Website Development</li>
-                            </ul> */}
-                             {/* <ul>
-                                <li><p style={{marginRight:"60px"}}>Cloud Migration</p></li>
-                                <li><p style={{marginRight:"35px"}}>SaaS Development</p></li>
-                                <li><p style={{marginRight:"35px"}}>DevOps Consulting</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                       E Commerce
+                                    </Link>
+                                </h1>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project3} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                       Mobile App
+                                    </Link>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-money"></i>
-                            </div> */}
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project4} alt="project" />
 
-                            <h3>
-                                <Link to="#">
-                               Mobile Apps
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
                                 </Link>
-                            </h3> 
+                            </div>
 
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
-                            {/* <ul>
-                                <li><p style={{marginRight:"50px"}}>Predictive Modeling</p></li>
-                                <li><p style={{marginRight:"135px"}}>Customer </p></li>
-                                <li><p style={{marginRight:"100px"}}>Segmentation </p></li>
-                                <li><p style={{marginRight:"50px"}}>Real-Time Analytics</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Web Portals
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-money"></i>
-                            </div> */}
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box ">
+                            <div className="image">
+                                <img src={project5} alt="project" />
 
-                            <h3>
-                                <Link to="#">
-                              Web Portals
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
                                 </Link>
-                            </h3> 
+                            </div>
 
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
-                            {/* <ul>
-                                <li><p style={{marginRight:"50px"}}>Predictive Modeling</p></li>
-                                <li><p style={{marginRight:"135px"}}>Customer </p></li>
-                                <li><p style={{marginRight:"100px"}}>Segmentation </p></li>
-                                <li><p style={{marginRight:"50px"}}>Real-Time Analytics</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Softwares
+                                    </Link>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-money"></i>
-                            </div> */}
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project6} alt="project" />
 
-                            <h3>
-                                <Link to="#">
-                             Softwares
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
                                 </Link>
-                            </h3> 
+                            </div>
 
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
-                            {/* <ul>
-                                <li><p style={{marginRight:"50px"}}>Predictive Modeling</p></li>
-                                <li><p style={{marginRight:"135px"}}>Customer </p></li>
-                                <li><p style={{marginRight:"100px"}}>Segmentation </p></li>
-                                <li><p style={{marginRight:"50px"}}>Real-Time Analytics</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
-                        <div className="single-solutions-box">
-                            {/* <div className="icon">
-                                <i className="flaticon-money"></i>
-                            </div> */}
-
-                            <h3>
-                                <Link to="#">
-                               Applications
-                                </Link>
-                            </h3> 
-
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
-                            {/* <ul>
-                                <li><p style={{marginRight:"50px"}}>Predictive Modeling</p></li>
-                                <li><p style={{marginRight:"135px"}}>Customer </p></li>
-                                <li><p style={{marginRight:"100px"}}>Segmentation </p></li>
-                                <li><p style={{marginRight:"50px"}}>Real-Time Analytics</p></li>
-                                
-                            </ul> */}
-                            <Link to="#" className="view-details-btn">
-                                View Details
-                            </Link>
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Applications
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

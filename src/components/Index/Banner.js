@@ -5,13 +5,13 @@ import { Link } from 'gatsby'
 
 const Banner = () => {
     return (
-        <div className="it-services-banner">
-            <div className="container">
+        <div className="it-services-banner" >
+            <div className="container" >
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="main-banner-content">
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <h1 style={{fontSize:"30px", marginTop:"250px"}}>Aamanto Technologies</h1>
+                                <h1 style={{fontSize:"30px", marginTop:"400px"}}>Aamanto Technologies</h1>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
