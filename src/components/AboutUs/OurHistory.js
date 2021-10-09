@@ -1,5 +1,6 @@
 import React from 'react'
-import starIcon from '../../assets/images/star-icon.png'
+import ReactWOW from 'react-wow'
+// import starIcon from '../../assets/images/star-icon.png'
 import history1 from '../../assets/images/history/history1.jpg'
 // import history2 from '../../assets/images/history/history2.jpg'
 // import history3 from '../../assets/images/history/history3.jpg'
@@ -33,18 +34,22 @@ const OurHistory = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-7 col-md-12">
                                     <div className="content">
+                                    <ReactWOW delay='.5s' animation='fadeInLeft'>
                                         <h3>Work Culture</h3>
                                         <p style={{fontSize:"15px"}}>At Aamanto, we realize how important having a healthy work-life balance is to boosting productivity. Keeping that in mind, our policy ensures our employees enjoy a healthy work environment where their opinions and ideas are valued. We know that the quality of a company can directly be measured by the quality of their employees, which is why we encourage employees to continuously grow and learn new skills and technologies. With a team comprised of various different nationalities and backgrounds, we foster a culture of diverse people and diverse ideas – because that is what drives innovation.</p>
 
                                         <h3>Careers</h3>
                                         <p style={{fontSize:"15px"}}>We are an equal opportunity employer and encourage candidates with all levels of experience to apply. Please navigate to our Careers page for current job openings.</p>
+                                        </ReactWOW>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-5 col-md-12">
                                     <div className="image">
+                                    <ReactWOW delay='.5s' animation='fadeInRight'>
                                         <img src={history1} alt="banner" style={{marginTop:"40px"}} />
-                                    </div>
+                                      </ReactWOW>                            
+                                            </div>
                                 </div>
                             </div>
                         </div>

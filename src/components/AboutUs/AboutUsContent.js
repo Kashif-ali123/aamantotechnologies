@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactWOW from 'react-wow'
 // import { Link } from 'gatsby'
 import aboutImage from '../../assets/images/about/about-img5.png'
 import starIcon from '../../assets/images/star-icon.png'
@@ -15,14 +16,18 @@ const AboutUsContent = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="about-image">
+                        <ReactWOW delay='.5s' animation='fadeInLeft'>
                             <img src={aboutImage} alt="banner" style={{marginTop:"40px"}} />
+                         </ReactWOW>
                         </div>
                     </div>
 
                     <div className="col-lg-6 col-md-12">
                         <div className="about-content">
                             <div className="content">
+                            <ReactWOW delay='.5s' animation='fadeInRight'>
                                 <span className="sub-title">
+
                                     <img src={starIcon} alt="banner" /> 
                                     About Us
                                 </span>
@@ -56,6 +61,7 @@ const AboutUsContent = () => {
                                 <Link to="/about-us" className="default-btn">
                                     <i className="flaticon-right"></i>More About Us<span></span>
                                 </Link> */}
+                                </ReactWOW>
                             </div>
                         </div>
                     </div>
