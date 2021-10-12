@@ -1,27 +1,26 @@
 import React from 'react'
 // import ServiceSidebar from './ServiceSidebar'
-// import details1 from '../../assets/images/services/data-science.jpg'
-import project2 from '../../assets/images/services/science.jpg'
-// import charts from '../../assets/images/services/chart3.jpg'
+// import details1 from '../../assets/images/services/ser.jpg'
+import project2 from '../../assets/images/services/in.jpg'
+// import charts from '../../assets/images/services/charts1.jpg'
 
-const DataContent = () => {
+const InternetThing = () => {
     return (
         <>
         <section className="services-details-area ptb-100">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
-                        <div className="services-details-image">
-                            {/* <img src={details1} alt="about" /> */}
+                        <div className="services-details-image" >
+                            {/* <img src={details1} alt="about"  style={{height:"550px"}}/> */}
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title"><h1>Data Science & Analytics</h1></span>
+                            <span className="sub-title"><h1>INTERNET OF THINGS (IoT)</h1></span>
                             <h3>About this Services</h3>
-                            <p>Aamanto enables businesses to provide quality services to the customers by assisting them in advancing the analytics maturity curve by providing actionable insights that lead to data-driven solutions. At Aamanto, we employ cutting-edge business intelligence and data intelligence solutions to help clients extract meaningful insights from a variety of real-time and large sets of data. We help businesses integrate huge amounts of structured, semi-structured, and unstructured information from different sources into a single, holistic ecosystem that can be utilized to model and predict emerging opportunities.
-
-</p>
-                            
+                            <p>Aamanto offers a range of services and innovative consumer electronics startups to develop IoT solutions. We guide our clients in the development of smart devices, the conversion of analogue products to digital using sensors, firmware, and IoT platforms, and the creation of custom IoT infrastructure (embedded, web, and mobile). We assist clients in configuring IoT devices, managing cyber-physical systems both on-site and remotely, analyzing sensor data with business intelligence tools, and presenting it through visualizations.</p>
+                           
+                           
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="image">
@@ -33,38 +32,27 @@ const DataContent = () => {
                                     <div className="content">
                                         <h3>Important Facts</h3>
                                         <ul>
-                                            <li>The Field of Data Science</li>
-                                            <li>The Problem</li>
-                                            <li>The Solution</li>
-                                            <li>The Skills</li>
+                                            <li>The Field of Internet Of Thing (IOT)</li>
+                                            <li>Smart appliances (stoves, refrigerators, washers and dryers, coffee machines, slow cookers)</li>
+                                            <li>Smart security systems, smart locks, and smart doorbells</li>
+                                            <li>Smart home hubs (that control lighting, home heating and cooling, etc.)</li>
+                                            <li>Smart assistants (like Amazon Alexa or Apple’s Siri)</li>
+                                            <li>Fitness trackers, sleep trackers, and smart scales</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
-                          
-                            
-                           
-                            {/* <div className="charts-image">
-                                <img src={charts} alt="about" />
-                            </div> */}
-                            <h3>Data Science and Analytics Offerings</h3>
+                            {/* <p>We offer software development services through our skilled staff to ensure your product is a fit for the modern digital arena. We have the combination of experience delivering critical projects, as well as the requisite skills in software development, cloud technologies and project management to make your project a success. Our agile methodology ensures that the client is always involved in the design and development process.</p> */}
+                            <h3>Internet Of Things Benefits</h3>
 
                             <div className="row">
-                                <div className="col-lg-6 col-sm-6 col-md-6">
+                                <div className="col-lg-7 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-factory"></i>
                                         </div>
-                                        Predictive & Descriptive Analytics
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-house"></i>
-                                        </div>
-                                        Data Engineering
+                                        Improved productivity of staff and reduced human labor
                                     </div>
                                 </div>
             
@@ -73,7 +61,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-hospital"></i>
                                         </div>
-                                        Big Data & Real-Time Analytics
+                                        Efficient operation management
                                     </div>
                                 </div>
             
@@ -82,7 +70,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-tracking"></i>
                                         </div>
-                                        Pattern Recognition
+                                        Better use of resources and assets
                                     </div>
                                 </div>
             
@@ -91,27 +79,25 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-investment"></i>
                                         </div>
-                                        Statistical Modeling
+                                        Cost-effective operation
                                     </div>
                                 </div>
             
-                               
+                                <div className="col-lg-6 col-sm-6 col-md-6">
+                                    <div className="single-industries-serve-box">
+                                        <div className="icon">
+                                            <i className="flaticon-house"></i>
+                                        </div>
+                                        Improved work safety
+                                    </div>
+                                </div>
             
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Attribution Modeling
-                                    </div>
-                                </div>
-                            
-                            <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Decision/Portfolio Optimization
+                                        Thorough marketing and business development
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-sm-6 col-md-6">
@@ -119,7 +105,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Content Optimization
+                                        Improved customer service and retention
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-sm-6 col-md-6">
@@ -127,10 +113,18 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Dashboard Presentation
+                                        Better business opportunities
                                     </div>
                                 </div>
-                            </div>
+                                <div className="col-lg-6 col-sm-6 col-md-6">
+                                    <div className="single-industries-serve-box">
+                                        <div className="icon">
+                                            <i className="flaticon-order"></i>
+                                        </div>
+                                        More trustworthy image of the company
+                                    </div>
+                                </div>
+                               </div>
 
                             {/* <h3>Technologies That We Use</h3>
                             <ul className="technologies-features">
@@ -149,7 +143,9 @@ const DataContent = () => {
 
                                 
                             </ul> */}
-                           
+                            {/* <div className="col-lg-6 col-sm-6 col-md-6">
+                                <img src={charts} alt="about" />
+                            </div> */}
                         </div>
                     </div>
                     
@@ -166,4 +162,4 @@ const DataContent = () => {
     )
 }
 
-export default DataContent
+export default InternetThing

@@ -1,6 +1,6 @@
 import React from 'react'
-import ServiceSidebar from './ServiceSidebar'
-import details1 from '../../assets/images/services/cloud-adoption.jpg'
+// import ServiceSidebar from './ServiceSidebar'
+// import details1 from '../../assets/images/services/cloud-adoption.jpg'
 import project2 from '../../assets/images/services/cloud.png'
 import charts from '../../assets/images/services/chart2.png'
 
@@ -10,17 +10,17 @@ const CloudContent = () => {
         <section className="services-details-area ptb-100">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 col-md-12">
+                    <div className="col-lg-12 col-md-12">
                         <div className="services-details-image">
-                            <img src={details1} alt="about" />
+                            {/* <img src={details1} alt="about" /> */}
                         </div>
 
                         <div className="services-details-desc">
                             <span className="sub-title"><h1>Cloud Adoption</h1></span>
                             <h3>About this Services</h3>
-                            <p>Transformation is a complex process that requires intricate planning and flawless execution.</p>
-                             <p>A single misstep can prove to be costly and time consuming.</p>
-                             <p>Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management .</p>
+                            <p>Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications for companies ranging from small businesses to large enterprises, whether you are already in the Cloud, having considered Cloud Migration, or looking to develop a Cloud-Native application. We thrive in private, hybrid, and public cloud systems, assisting our customers in the development of high-performance, scalable, and reliable solutions that maximize the return on cloud projects, reduce costs, and minimize risk.
+</p>
+                            
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="image">
@@ -42,11 +42,11 @@ const CloudContent = () => {
                             </div>
 
                             <p>WTransformation is a complex process that requires intricate planning and flawless execution. A single misstep can prove to be costly and time consuming. Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
-                            <h3>Service Offerings</h3>
+                            {/* <h3>Service Offerings</h3>
                             <p>We study our clients’ requirements and deliver a plan specifically tailored for them and their needs. We guide them every step of the way in their transition to the cloud so they can seamlessly scale up their business and lower their total cost of ownership.</p>
-                            <p>We are fully equipped to offer all varieties of cloud services, such as:</p>
+                            <p>We are fully equipped to offer all varieties of cloud services, such as:</p> */}
 
-                            <h3>Infrastructure-as-a-Service (IaaS)</h3>
+                            {/* <h3>Infrastructure-as-a-Service (IaaS)</h3>
                             <p>Providing clients with the compute, networking, and storage resources they require on an as-needed basis.</p>
                             <h3>Platform-as-a-Service (PaaS)</h3>
                             <p>Providing users with a cloud environment in which they can develop, manage and deliver their applications.</p>
@@ -55,14 +55,14 @@ const CloudContent = () => {
                             <p>Providing clients with the compute, networking, and storage resources they require on an as-needed basis.</p>
                             <h3>Function-as-a-Service (FaaS)</h3>
                             <p>Providing users with the ability to execute code in response to trigger events, without having to worry about the infrastructure normally required to build and deploy such micro-service applications.</p>
-                           
-                            <div className="charts-image">
+                            */}
+                            {/* <div className="charts-image">
                                 <img src={charts} alt="about" />
-                            </div>
+                            </div> */}
                             <h3>Application Areas</h3>
 
                             <div className="row">
-                                <div className="col-lg-4 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-factory"></i>
@@ -70,7 +70,7 @@ const CloudContent = () => {
                                         File storage.
                                     </div>
                                 </div>
-                                <div className="col-lg-8 col-sm-6 col-md-6">
+                                <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-house"></i>
@@ -156,9 +156,9 @@ const CloudContent = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-12">
+                    {/* <div className="col-lg-4 col-md-12">
                         <ServiceSidebar />
-                    </div>
+                    </div> */}
                     </div>
             </div>
             </section>

@@ -1,27 +1,26 @@
 import React from 'react'
 // import ServiceSidebar from './ServiceSidebar'
-// import details1 from '../../assets/images/services/data-science.jpg'
-import project2 from '../../assets/images/services/science.jpg'
-// import charts from '../../assets/images/services/chart3.jpg'
+// import details1 from '../../assets/images/services/ser.jpg'
+import project2 from '../../assets/images/services/cy.jpg'
+// import charts from '../../assets/images/services/charts1.jpg'
 
-const DataContent = () => {
+const CyberSecurity = () => {
     return (
         <>
         <section className="services-details-area ptb-100">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
-                        <div className="services-details-image">
-                            {/* <img src={details1} alt="about" /> */}
+                        <div className="services-details-image" >
+                            {/* <img src={details1} alt="about"  style={{height:"550px"}}/> */}
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title"><h1>Data Science & Analytics</h1></span>
+                            <span className="sub-title"><h1>CYBER SECURITY</h1></span>
                             <h3>About this Services</h3>
-                            <p>Aamanto enables businesses to provide quality services to the customers by assisting them in advancing the analytics maturity curve by providing actionable insights that lead to data-driven solutions. At Aamanto, we employ cutting-edge business intelligence and data intelligence solutions to help clients extract meaningful insights from a variety of real-time and large sets of data. We help businesses integrate huge amounts of structured, semi-structured, and unstructured information from different sources into a single, holistic ecosystem that can be utilized to model and predict emerging opportunities.
-
-</p>
-                            
+                            <p>Starting from a set of identification data items, such as brands, names, IPs, DNS domains, etc., data is obtained, correlated and transformed into information, which is then evaluated and transformed into intelligence. This intelligence is the actionable asset you require to take your digital security to an advanced level. We can provide a much broader understanding of critical infrastructure, computer security, and security policy to your firm since we're always on the pulse of current cybersecurity developments. Allow us to serve as your sole security resource or to supplement your existing IT capabilities by approaching your environment objectively and resolving your most difficult security concerns.</p>
+                           
+                           
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="image">
@@ -33,22 +32,18 @@ const DataContent = () => {
                                     <div className="content">
                                         <h3>Important Facts</h3>
                                         <ul>
-                                            <li>The Field of Data Science</li>
-                                            <li>The Problem</li>
-                                            <li>The Solution</li>
-                                            <li>The Skills</li>
+                                            <li>The Field of Cyber Security</li>
+                                            <li>Communicate data breaches</li>
+                                            <li>Appoint a data protection officer</li>
+                                            <li>Require user consent to process information</li>
+                                            <li>Anonymize data for privacy</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
-                          
-                            
-                           
-                            {/* <div className="charts-image">
-                                <img src={charts} alt="about" />
-                            </div> */}
-                            <h3>Data Science and Analytics Offerings</h3>
+                            {/* <p>We offer software development services through our skilled staff to ensure your product is a fit for the modern digital arena. We have the combination of experience delivering critical projects, as well as the requisite skills in software development, cloud technologies and project management to make your project a success. Our agile methodology ensures that the client is always involved in the design and development process.</p> */}
+                            <h3>Cyber Security Benefits</h3>
 
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 col-md-6">
@@ -56,15 +51,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-factory"></i>
                                         </div>
-                                        Predictive & Descriptive Analytics
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-house"></i>
-                                        </div>
-                                        Data Engineering
+                                        Protection for your business
                                     </div>
                                 </div>
             
@@ -73,7 +60,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-hospital"></i>
                                         </div>
-                                        Big Data & Real-Time Analytics
+                                        Increased productivity
                                     </div>
                                 </div>
             
@@ -82,7 +69,7 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-tracking"></i>
                                         </div>
-                                        Pattern Recognition
+                                        Inspires customer confidence
                                     </div>
                                 </div>
             
@@ -91,27 +78,25 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-investment"></i>
                                         </div>
-                                        Statistical Modeling
+                                        Transforming the retail experience
                                     </div>
                                 </div>
             
-                               
+                                <div className="col-lg-6 col-sm-6 col-md-6">
+                                    <div className="single-industries-serve-box">
+                                        <div className="icon">
+                                            <i className="flaticon-house"></i>
+                                        </div>
+                                        Stops your website from going down
+                                    </div>
+                                </div>
             
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <div className="single-industries-serve-box">
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Attribution Modeling
-                                    </div>
-                                </div>
-                            
-                            <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Decision/Portfolio Optimization
+                                        Stand out from the competition
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-sm-6 col-md-6">
@@ -119,18 +104,10 @@ const DataContent = () => {
                                         <div className="icon">
                                             <i className="flaticon-order"></i>
                                         </div>
-                                        Content Optimization
+                                        Allows Employees to Work Safely 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Dashboard Presentation
-                                    </div>
-                                </div>
-                            </div>
+                               </div>
 
                             {/* <h3>Technologies That We Use</h3>
                             <ul className="technologies-features">
@@ -149,7 +126,9 @@ const DataContent = () => {
 
                                 
                             </ul> */}
-                           
+                            {/* <div className="col-lg-6 col-sm-6 col-md-6">
+                                <img src={charts} alt="about" />
+                            </div> */}
                         </div>
                     </div>
                     
@@ -166,4 +145,4 @@ const DataContent = () => {
     )
 }
 
-export default DataContent
+export default CyberSecurity
