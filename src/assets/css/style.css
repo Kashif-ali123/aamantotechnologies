@@ -1539,7 +1539,7 @@ Main Banner Area CSS
 }
 
 .banner-area-content img {
-  margin-top:   50px;
+  margin-top: 50px;
 }
 
 .main-banner-item {
@@ -3501,19 +3501,11 @@ Services Details Area CSS
   position: relative;
   margin-bottom: 30px;
   border-radius: 5px;
-  
-
- 
 }
 
 .services-details-image img {
   border-radius: 5px;
   width: 100%;
-  
- 
- 
- 
-  /* background-image: url('../images/services/ser.jpg'); */
 }
 
 .services-details-image-slides.owl-theme {
@@ -3583,7 +3575,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .image {
- 
+  padding-right: 15px;
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -11920,3 +11912,39 @@ Go Top CSS
           transform: translateY(-5px);
 }
 /*# sourceMappingURL=style.css.map */
+
+/*# Custom Styling */
+.owl-carousel .owl-item img{
+  display: inline !important;
+    width: auto !important;
+}
+.heading-highlight{
+  font-size: 25px; 
+  color: #fff;
+  background-color: #e85a2a;
+  padding: 5px;
+  border-radius: 5px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: -70px !important;
+}
+.single-projects-box:hover{
+  box-shadow: 2px 2px 5px 5px #ccc;
+  transition: 1s;
+}
+/*# Coommons.css Styling here */
+.case-study-slides.owl-carousel:hover .owl-nav .owl-prev, .case-study-slides.owl-carousel:hover .owl-nav .owl-next{
+  top: 350px;
+}
+.single-solutions-box{
+  height: 25em;
+}
+.single-solutions-box:hover{
+  box-shadow: 2px 2px 5px 5px #ccc;
+}
+.single-solutions-box:hover .view-details-btn{
+  background-color: #59afff;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #59afff;
+}
