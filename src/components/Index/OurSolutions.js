@@ -14,10 +14,10 @@ const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
 const options = {
     loop: true,
-    nav: false,
+    nav: true,
     dots: true,
     autoplayHoverPause: true,
-    autoplay: false,
+    autoplay: true,
     items: 1,
     navText: [
         "<i class='flaticon-left-1'></i>",
