@@ -31,7 +31,7 @@ const OurBlog = () => {
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
+                                {/* <ul className="post-meta d-flex justify-content-between align-items-center">
                                     <li>
                                         <div className="post-author d-flex align-items-center">
                                             <img src={user1} className="rounded-circle" alt="blog" />
@@ -41,7 +41,7 @@ const OurBlog = () => {
                                     <li>
                                         <i className='flaticon-calendar'></i> April 30, 2020
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <h3>
                                     <Link to="#">
                                        How Companies Use Machine Learning
@@ -60,7 +60,7 @@ const OurBlog = () => {
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
+                                {/* <ul className="post-meta d-flex justify-content-between align-items-center">
                                     <li>
                                         <div className="post-author d-flex align-items-center">
                                             <img src={user2} className="rounded-circle" alt="blog" />
@@ -70,7 +70,7 @@ const OurBlog = () => {
                                     <li>
                                         <i className='flaticon-calendar'></i> April 28, 2020
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <h3>
                                     <Link to="#">
                                     How Companies Use Machine Learning
@@ -89,7 +89,7 @@ const OurBlog = () => {
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
+                                {/* <ul className="post-meta d-flex justify-content-between align-items-center">
                                     <li>
                                         <div className="post-author d-flex align-items-center">
                                             <img src={user3} className="rounded-circle" alt="blog" />
@@ -99,7 +99,7 @@ const OurBlog = () => {
                                     <li>
                                         <i className='flaticon-calendar'></i> April 29, 2020
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <h3>
                                     <Link to="#">
                                     How Companies Use Machine Learning

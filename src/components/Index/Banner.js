@@ -15,17 +15,16 @@ const Banner = () => {
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <p >Aamanto is an IT consulting company based in Toronto, Canada.</p>
-                                <p >We at Aamanto deliver management consulting, innovative business solutions, digital transformation, system integration, data science and artificial intelligence in cloud to our customers world wide.</p>
+                                <p style={{fontSize:"28px", color: "#212529"}}>Committed to <b className="heading-highlight">INNOVATION</b></p>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInRight'>
-                                <div className="btn-box">
+                                {/* <div className="btn-box">
                                     <Link to="/contact" className="default-btn">
                                         <i className="flaticon-right"></i> 
                                         Get Started <span></span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </ReactWOW>
                         </div>
                     </div>
