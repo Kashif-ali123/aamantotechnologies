@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="how-its-work-image" >
-                            <img src={howItWork} alt="banner"  style={{height:"300px", width:"800px", marginTop: "100px"}} />
+                            <img src={howItWork} alt="banner"  style={{ width:"800px", marginTop: "100px"}} />
                         </div>
                     </div>
                 </div>
