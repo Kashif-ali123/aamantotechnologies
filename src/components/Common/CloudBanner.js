@@ -1,36 +1,46 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import shape1 from '../../assets/images/shape/shape1.svg'
-import shape2 from '../../assets/images/shape/shape2.png'
-import shape3 from '../../assets/images/shape/shape3.png'
+import ReactWOW from 'react-wow'
+import bannerImg from '../../assets/images/services/cloud-adoption.jpg'
 
-const CloudBanner = ({pageTitle, homePageUrl, homePageText, activePageText}) => {
+const CloudBanner = () => {
     return (
         <div className="page-title-area">
-            <div className="container">
-                <div className="page-title-content">
-                    <h2>{pageTitle}</h2>
-                    <ul>
-                        <li>
-                            <Link to={homePageUrl}>
-                                {homePageText}
-                            </Link>
-                        </li>
-                        <li>{activePageText}</li>
-                    </ul>
+        <div className="container">
+            <div className="row align-items-center" >
+                <div className="col-lg-6 col-md-12">
+                    <div className="main-banner-content">
+                        <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h1 style={{fontSize:"30px"}}>Cloud Adoption</h1>
+                        </ReactWOW>
+
+                        <ReactWOW delay='.1s' animation='fadeInLeft'>
+                      <p style={{textAlign:"justify"}}>Transformation is a complex process that requires intricate planning and flawless execution.</p>
+                           
+                        </ReactWOW>
+
+                        <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <div className="btn-box">
+                                <Link to="/contact" className="default-btn">
+                                    <i className="flaticon-right"></i> 
+                                    Get Started <span></span>
+                                </Link>
+                            </div>
+                        </ReactWOW>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-md-12">
+                    <ReactWOW delay='.1s' animation='fadeInUp'>
+                       
+                            <img src={bannerImg} alt="banner" />
+                       
+                    </ReactWOW>
                 </div>
             </div>
-
-            <div className="shape-img1">
-                <img src={shape1} alt="banner" />
-            </div>
-            <div className="shape-img2">
-                <img src={shape2} alt="banner" />
-            </div>
-            <div className="shape-img3">
-                <img src={shape3} alt="banner" />
-            </div>
         </div>
+  </div>
+
     )
 }
 
