@@ -1539,7 +1539,7 @@ Main Banner Area CSS
 }
 
 .banner-area-content img {
-  margin-top: 50px;
+  margin-top:   50px;
 }
 
 .main-banner-item {
@@ -3501,11 +3501,19 @@ Services Details Area CSS
   position: relative;
   margin-bottom: 30px;
   border-radius: 5px;
+  
+
+ 
 }
 
 .services-details-image img {
   border-radius: 5px;
   width: 100%;
+  
+ 
+ 
+ 
+  /* background-image: url('../images/services/ser.jpg'); */
 }
 
 .services-details-image-slides.owl-theme {
@@ -3575,7 +3583,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .image {
-  padding-right: 15px;
+ 
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 30px;
