@@ -3,6 +3,13 @@ import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
 import caseStudy1 from '../../assets/images/case-study/case-study1.jpg'
 import Loadable from '@loadable/component'
+import scientist1 from '../../assets/images/icons/icon1.png'
+import project1 from '../../assets/images/projects/project1.jpg'
+import project2 from '../../assets/images/projects/project2.jpg'
+import project3 from '../../assets/images/projects/project3.jpg'
+import project4 from '../../assets/images/projects/project4.jpg'
+import project5 from '../../assets/images/projects/project5.jpg'
+import project6 from '../../assets/images/projects/project6.jpg'
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
 const options = {
@@ -26,7 +33,7 @@ const CaseStudy = () => {
     }, [])
 
     return (
-        <div className="case-study-area bg-fffbf5">
+        <div className="case-study-are">
             {display ? <OwlCarousel 
                 className="case-study-slides owl-carousel owl-theme"
                 {...options}
@@ -34,31 +41,78 @@ const CaseStudy = () => {
                 <div className="single-case-study-item ptb-100">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12">
-                                <div className="case-study-content">
-                                    <span className="sub-title">
-                                        <img src={starIcon} alt="case-study" /> 
-                                        Case study #1
-                                    </span>
-                                    <h2>Data Science in Pharmaceutical Industries</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project1} alt="project" />
 
-                                    <Link to="/case-studies-details" className="default-btn">
-                                        <i className="flaticon-view"></i>
-                                        Details More
-                                        <span></span>
-                                    </Link>
-                                </div>
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
                             </div>
 
-                            <div className="col-lg-6 col-md-12">
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                     CRM
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project2} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                       E Commerce
+                                    </Link>
+                                </h1>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project3} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                       Mobile App
+                                    </Link>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                            {/* <div className="col-lg-6 col-md-12">
                                 <div className="case-study-image">
                                     <Link to="/case-studies-details" className="d-block">
                                         <img src={caseStudy1} alt="case-study" />
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -66,31 +120,78 @@ const CaseStudy = () => {
                 <div className="single-case-study-item ptb-100">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12">
-                                <div className="case-study-content">
-                                    <span className="sub-title">
-                                        <img src={starIcon} alt="case-study" /> 
-                                        Case study #2
-                                    </span>
-                                    <h2>Mathematics, Advanced Statistics in Python</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project4} alt="project" />
 
-                                    <Link to="/case-studies-details" className="default-btn">
-                                        <i className="flaticon-view"></i>
-                                        Details More
-                                        <span></span>
-                                    </Link>
-                                </div>
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
                             </div>
 
-                            <div className="col-lg-6 col-md-12">
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Web Portals
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box ">
+                            <div className="image">
+                                <img src={project5} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Softwares
+                                    </Link>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                            <div className="image">
+                                <img src={project6} alt="project" />
+
+                                <Link className="link-btn" to="#">
+                                    <i className='bx bx-plus'></i>
+                                </Link>
+                            </div>
+
+                            <div className="content">
+                                <h1>
+                                    <Link to="#">
+                                    Applications
+                                    </Link>
+                                </h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                            {/* <div className="col-lg-6 col-md-12">
                                 <div className="case-study-image">
                                     <Link to="/case-studies-details" className="d-block">
                                         <img src={caseStudy1} alt="case-study" />
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
