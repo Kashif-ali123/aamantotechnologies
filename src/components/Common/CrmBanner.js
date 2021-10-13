@@ -40,7 +40,7 @@ const CrmBanner = () => {
                 <div className="main-banner-item item-bg1">
                 <div className="page-title-are">
         <div className="container">
-            <div className="row ">
+        <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
