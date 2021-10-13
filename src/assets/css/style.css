@@ -9972,6 +9972,17 @@ Page Title Area CSS
   bottom: 25%;
   left: 5%;
 }
+.page-title-are img
+{
+ 
+  bottom: 10%;
+  z-index: 1;
+  right: 30px;
+  -webkit-animation: rotate3d 4s linear infinite;
+          animation: rotate3d 4s linear infinite;
+  opacity: .5;
+}
+
 
 .page-title-area.page-title-style-two {
   padding-top: 120px;
