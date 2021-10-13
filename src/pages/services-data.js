@@ -11,10 +11,10 @@ const Data = () => {
         <Layout>
             <Navbar />
             <DataBanner
-                pageTitle="Data Science" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Data Science" 
+                // pageTitle="Data Science" 
+                // homePageText="Home" 
+                // homePageUrl="/" 
+                // activePageText="Data Science" 
             />
             <DataContent />
             {/* <RelatedServices /> */}
