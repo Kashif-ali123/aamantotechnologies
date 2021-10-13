@@ -1,37 +1,38 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import shape1 from '../../assets/images/shape/shape1.svg'
-import shape2 from '../../assets/images/shape/shape2.png'
-import shape3 from '../../assets/images/shape/shape3.png'
+import ReactWOW from 'react-wow'
+import banner from '../../assets/images/banner/software.png'
 
-const Page1Banner = ({pageTitle, homePageUrl, homePageText, activePageText}) => {
+const Page1Banner = () => {
     return (
-        <div className="page-title-area">
+        <div className="digital-agency-banner">
             <div className="container">
-                <div className="page-title-content">
-                    <h2>{pageTitle}</h2>
-                    <ul>
-                        <li>
-                            <Link to={homePageUrl}>
-                                {homePageText}
-                            </Link>
-                        </li>
-                        <li>{activePageText}</li>
-                    </ul>
-                </div>
-            </div>
+                <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-12">
+                        <div className="banner-wrapper-content">
+                            <span className="sub-title">Our Service</span>
+                            <ReactWOW delay='.1s' animation='fadeInLeft'>
+                                <h1>Software Development</h1>
+                            </ReactWOW>
 
-            <div className="shape-img1">
-                <img src={shape1} alt="banner" />
-            </div>
-            <div className="shape-img2">
-                <img src={shape2} alt="banner" />
-            </div>
-            <div className="shape-img3">
-                <img src={shape3} alt="banner" />
+                            <ReactWOW delay='.1s' animation='fadeInLeft'>
+                                <p>We have created a cloud based tool to do your all boring tasks related to data analysis and decesion making based on the nature of data!</p>
+                            </ReactWOW>
+
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-12">
+                        <ReactWOW delay='.1s' animation='fadeInUp'>
+                            <div className="banner-wrapper-image-software">
+                                <img src={banner} alt="banner" />
+                            </div>
+                        </ReactWOW>
+                    </div>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Page1Banner;
+export default Page1Banner
