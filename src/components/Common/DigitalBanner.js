@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ReactWOW from 'react-wow'
-import bannerdigital from '../../assets/images/banner/digital-transformation.png'
+import bannerdigital from '../../assets/images/services/digital-transformation.png'
 
 const DigitalBanner = () => {
     return (

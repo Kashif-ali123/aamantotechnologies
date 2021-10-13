@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ReactWOW from 'react-wow'
-import bannercybersecurity from '../../assets/images/banner/cyber-security.png'
+import bannercybersecurity from '../../assets/images/services/cyber-security.png'
 
 const MainBanner = () => {
     return (

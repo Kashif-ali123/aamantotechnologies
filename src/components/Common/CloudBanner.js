@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ReactWOW from 'react-wow'
-import bannercloud from '../../assets/images/banner/cloud.png'
+import bannercloud from '../../assets/images/services/cloud.png'
 
 const MainBanner = () => {
     return (

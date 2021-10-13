@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ReactWOW from 'react-wow'
-import banneriot from '../../assets/images/banner/iot.png'
+import banneriot from '../../assets/images/services/iot.png'
 
 const MainBanner = () => {
     return (
