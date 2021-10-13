@@ -7,7 +7,7 @@ import project2 from '../../assets/images/services/cy.jpg'
 const CyberSecurity = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -17,8 +17,7 @@ const CyberSecurity = () => {
 
                         <div className="services-details-desc">
                             <span className="sub-title"><h1>CYBER SECURITY</h1></span>
-                            <h3>About this Services</h3>
-                            <p>Starting from a set of identification data items, such as brands, names, IPs, DNS domains, etc., data is obtained, correlated and transformed into information, which is then evaluated and transformed into intelligence. This intelligence is the actionable asset you require to take your digital security to an advanced level. We can provide a much broader understanding of critical infrastructure, computer security, and security policy to your firm since we're always on the pulse of current cybersecurity developments. Allow us to serve as your sole security resource or to supplement your existing IT capabilities by approaching your environment objectively and resolving your most difficult security concerns.</p>
+                            <p className="service-description">Starting from a set of identification data items, such as brands, names, IPs, DNS domains, etc., data is obtained, correlated and transformed into information, which is then evaluated and transformed into intelligence. This intelligence is the actionable asset you require to take your digital security to an advanced level. We can provide a much broader understanding of critical infrastructure, computer security, and security policy to your firm since we're always on the pulse of current cybersecurity developments. Allow us to serve as your sole security resource or to supplement your existing IT capabilities by approaching your environment objectively and resolving your most difficult security concerns.</p>
                            
                            
                             <div className="row align-items-center">

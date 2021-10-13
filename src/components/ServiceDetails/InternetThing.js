@@ -7,7 +7,7 @@ import project2 from '../../assets/images/services/in.jpg'
 const InternetThing = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -16,9 +16,9 @@ const InternetThing = () => {
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title"><h1>INTERNET OF THINGS (IoT)</h1></span>
-                            <h3>About this Services</h3>
-                            <p>Aamanto offers a range of services and innovative consumer electronics startups to develop IoT solutions. We guide our clients in the development of smart devices, the conversion of analogue products to digital using sensors, firmware, and IoT platforms, and the creation of custom IoT infrastructure (embedded, web, and mobile). We assist clients in configuring IoT devices, managing cyber-physical systems both on-site and remotely, analyzing sensor data with business intelligence tools, and presenting it through visualizations.</p>
+                            <span className="sub-title"><h1>Internet Of Things (IoT)</h1></span>
+                            
+                            <p className="service-description">Aamanto offers a range of services and innovative consumer electronics startups to develop IoT solutions. We guide our clients in the development of smart devices, the conversion of analogue products to digital using sensors, firmware, and IoT platforms, and the creation of custom IoT infrastructure (embedded, web, and mobile). We assist clients in configuring IoT devices, managing cyber-physical systems both on-site and remotely, analyzing sensor data with business intelligence tools, and presenting it through visualizations.</p>
                            
                            
                             <div className="row align-items-center">

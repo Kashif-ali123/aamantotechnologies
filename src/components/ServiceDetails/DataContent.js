@@ -7,7 +7,7 @@ import project2 from '../../assets/images/services/science.jpg'
 const DataContent = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -17,8 +17,7 @@ const DataContent = () => {
 
                         <div className="services-details-desc">
                             <span className="sub-title"><h1>Data Science & Analytics</h1></span>
-                            <h3>About this Services</h3>
-                            <p>Aamanto enables businesses to provide quality services to the customers by assisting them in advancing the analytics maturity curve by providing actionable insights that lead to data-driven solutions. At Aamanto, we employ cutting-edge business intelligence and data intelligence solutions to help clients extract meaningful insights from a variety of real-time and large sets of data. We help businesses integrate huge amounts of structured, semi-structured, and unstructured information from different sources into a single, holistic ecosystem that can be utilized to model and predict emerging opportunities.
+                            <p className="service-description">Aamanto enables businesses to provide quality services to the customers by assisting them in advancing the analytics maturity curve by providing actionable insights that lead to data-driven solutions. At Aamanto, we employ cutting-edge business intelligence and data intelligence solutions to help clients extract meaningful insights from a variety of real-time and large sets of data. We help businesses integrate huge amounts of structured, semi-structured, and unstructured information from different sources into a single, holistic ecosystem that can be utilized to model and predict emerging opportunities.
 
 </p>
                             
@@ -43,7 +42,6 @@ const DataContent = () => {
                             </div>
 
                           
-                            
                            
                             {/* <div className="charts-image">
                                 <img src={charts} alt="about" />

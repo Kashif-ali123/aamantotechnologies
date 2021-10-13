@@ -7,7 +7,7 @@ import project2 from '../../assets/images/services/mobi.png'
 const MobileApplication = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -16,9 +16,8 @@ const MobileApplication = () => {
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title"><h1>MOBILE APPLICATION DEVELOPMENT</h1></span>
-                            <h3>About this Services</h3>
-                            <p>We're pushing the boundaries of what's achievable on mobile by building revolutionary mobile experiences for clients ranging from huge corporations to innovative startups and creative entrepreneurs. We ensure that your vision is translated into a beautifully designed, understanding of native iOS, Android, and cross-platform app development. user-friendly, and engaging mobile solution of exceptional quality using our thorough. </p>
+                            <span className="sub-title"><h1>Mobile Application Development</h1></span>
+                            <p className="service-description">We're pushing the boundaries of what's achievable on mobile by building revolutionary mobile experiences for clients ranging from huge corporations to innovative startups and creative entrepreneurs. We ensure that your vision is translated into a beautifully designed, understanding of native iOS, Android, and cross-platform app development. user-friendly, and engaging mobile solution of exceptional quality using our thorough. </p>
                            
                            
                             <div className="row align-items-center">

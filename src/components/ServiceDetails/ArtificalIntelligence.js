@@ -7,7 +7,7 @@ import project2 from '../../assets/images/services/in.jpg'
 const  ArtificalIntelligence = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -17,8 +17,8 @@ const  ArtificalIntelligence = () => {
 
                         <div className="services-details-desc">
                             <span className="sub-title"><h1>Artificial Intelligence</h1></span>
-                            <h3>About this Services</h3>
-                            <p>Aamanto also develops and builds industry-leading digital transformation technologies. We use blockchain and AI to turn sophisticated products into quick fixes. We have a large team of highly qualified AI developers and Consultants who have executed end-to-end initiatives in machine learning, natural language processing, computer vision, and predictive analysis. We are a leading machine learning startup that uses powerful algorithms to assist organizations to automate processes and prioritize regular decision making. This reduces the risk of human mistakes and allows us to move away from traditional rule-based procedures and toward more intelligent ones, allowing us to find new unstructured data sets and patterns.</p>
+                            
+                            <p className="service-description">Aamanto also develops and builds industry-leading digital transformation technologies. We use blockchain and AI to turn sophisticated products into quick fixes. We have a large team of highly qualified AI developers and Consultants who have executed end-to-end initiatives in machine learning, natural language processing, computer vision, and predictive analysis. We are a leading machine learning startup that uses powerful algorithms to assist organizations to automate processes and prioritize regular decision making. This reduces the risk of human mistakes and allows us to move away from traditional rule-based procedures and toward more intelligent ones, allowing us to find new unstructured data sets and patterns.</p>
                            
                            
                             <div className="row align-items-center">

@@ -1,13 +1,20 @@
 import React from 'react'
+import {Link} from 'gatsby'
+import ReactWOW from 'react-wow'
 // import ServiceSidebar from './ServiceSidebar'
 // import details1 from '../../assets/images/services/cloud-adoption.jpg'
 import project2 from '../../assets/images/services/cloud.png'
 import charts from '../../assets/images/services/chart2.png'
+import AboutImage from '../../assets/images/about/about-img10.png'
+import AboutShape from '../../assets/images/about/about-shape1.png'
+import StarIcon from '../../assets/images/star-icon.png'
+import OurMissionShape from '../../assets/images/our-mission/our-mission-shape2.png'
+import CircleShape from '../../assets/images/shape/circle-shape1.png'
 
 const CloudContent = () => {
     return (
         <>
-        <section className="services-details-area ptb-100">
+        <section className="services-details-area ptb-80">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
@@ -17,152 +24,86 @@ const CloudContent = () => {
 
                         <div className="services-details-desc">
                             <span className="sub-title"><h1>Cloud Adoption</h1></span>
-                            <h3>About this Services</h3>
-                            <p>Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications for companies ranging from small businesses to large enterprises, whether you are already in the Cloud, having considered Cloud Migration, or looking to develop a Cloud-Native application. We thrive in private, hybrid, and public cloud systems, assisting our customers in the development of high-performance, scalable, and reliable solutions that maximize the return on cloud projects, reduce costs, and minimize risk.
-</p>
                             
-                            <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="image">
-                                        <img src={project2} alt="about" />
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="content">
-                                        <h3>Important Facts</h3>
-                                        <ul>
-                                            <li>The Field of Cloud Adoption</li>
-                                            <li>The Problem</li>
-                                            <li>The Solution</li>
-                                            <li>The Skills</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <p>WTransformation is a complex process that requires intricate planning and flawless execution. A single misstep can prove to be costly and time consuming. Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
-                            {/* <h3>Service Offerings</h3>
-                            <p>We study our clients’ requirements and deliver a plan specifically tailored for them and their needs. We guide them every step of the way in their transition to the cloud so they can seamlessly scale up their business and lower their total cost of ownership.</p>
-                            <p>We are fully equipped to offer all varieties of cloud services, such as:</p> */}
-
-                            {/* <h3>Infrastructure-as-a-Service (IaaS)</h3>
-                            <p>Providing clients with the compute, networking, and storage resources they require on an as-needed basis.</p>
-                            <h3>Platform-as-a-Service (PaaS)</h3>
-                            <p>Providing users with a cloud environment in which they can develop, manage and deliver their applications.</p>
-                            <h3>Software-as-a-Service (SaaS)</h3>
-                            <p>Providing users with the tools necessary to build, deploy, and make available their own software on the cloud – where it can be accessed by their customers.</p>
-                            <p>Providing clients with the compute, networking, and storage resources they require on an as-needed basis.</p>
-                            <h3>Function-as-a-Service (FaaS)</h3>
-                            <p>Providing users with the ability to execute code in response to trigger events, without having to worry about the infrastructure normally required to build and deploy such micro-service applications.</p>
-                            */}
-                            {/* <div className="charts-image">
-                                <img src={charts} alt="about" />
-                            </div> */}
-                            <h3>Application Areas</h3>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-factory"></i>
-                                        </div>
-                                        File storage.
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-house"></i>
-                                        </div>
-                                        Software testing and development.
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-hospital"></i>
-                                        </div>
-                                        Big Data Analytics
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-tracking"></i>
-                                        </div>
-                                        Data backups and archiving
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-investment"></i>
-                                        </div>
-                                        Disaster recovery
-                                    </div>
-                                </div>
-            
-                              
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Infrastructure as a service (IaaS) 
-                                    </div>
-                                </div>
+                            <p  className="service-description">Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications for companies ranging from small businesses to large enterprises, whether you are already in the Cloud, having considered Cloud Migration, or looking to develop a Cloud-Native application. We thrive in private, hybrid, and public cloud systems, assisting our customers in the development of high-performance, scalable, and reliable solutions that maximize the return on cloud projects, reduce costs, and minimize risk.<br/>
+                            WTransformation is a complex process that requires intricate planning and flawless execution. A single misstep can prove to be costly and time consuming. Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
                             
-                            <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Platform as a service (PaaS)
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Communication
-                                    </div>
-                                </div>
-                            </div>
+                            
 
-                            {/* <h3>Technologies That We Use</h3>
-                            <ul className="technologies-features">
-                                <li><span>JavaScript</span></li>
-                                <li><span>Python</span></li>
-                                <li><span>Java</span></li>
-                                <li><span>React Js </span></li>
-                                <li><span>PHP</span></li>
-                                <li><span>Swift</span></li>
-                                <li><span>C# (C- Sharp)</span></li>
-                                <li><span>Reactive Native</span></li>
-                                <li><span>Angular</span></li>
-                                <li><span>Node Js</span></li>
-                                <li><span>MongoDB</span></li>
-                                <li><span>MYSQL</span></li>
-
-                                
-                            </ul> */}
+                           
                            
                         </div>
                     </div>
-                    
-                    {/* <div className="col-lg-4 col-md-12">
-                        <ServiceSidebar />
-                    </div> */}
-                    </div>
+                </div>
             </div>
-            </section>
+        </section>
              
+        <section className="about-area ptb-100">
+            <div className="container-fluid">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-12">
+                        <div className="about-img">
+                        <ReactWOW delay='2.2s' animation='fadeInLeft'>
+                            <img src={AboutImage} alt="About Image" />
+                        </ReactWOW>
+                            <div className="shape">
+                                <img src={AboutShape} alt="About Shape" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-12">
+                        <div className="about-content">
+                            <div className="content">
+                            <ReactWOW delay='2s' animation='fadeInLeft'>
+                                <h2>Cloud Services</h2>
+                                <p>Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications</p>
+                            </ReactWOW>
+                            <ReactWOW delay='2.5s' animation='fadeInRight'>
+                                <ul className="about-list">
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Big Data
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Data Visualization
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Data Warehousing
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Data Management
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Business Intelligence
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-tick"></i>
+                                        Business Intelligence
+                                        <img src={OurMissionShape} alt="Our Mission Shape" />
+                                    </li>
+                                </ul>
+                              </ReactWOW>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="circle-shape1">
+                <img src={CircleShape} alt="Circle Shape" />
+            </div>
+        </section>
+    ) 
  </>
             
        
