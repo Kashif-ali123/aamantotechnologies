@@ -12,10 +12,10 @@ const Details = () => {
         <Layout>
             <Navbar />
             <CloudBanner
-                pageTitle="Cloud Adoption" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Cloud Adoption" 
+                // pageTitle="Cloud Adoption" 
+                // homePageText="Home" 
+                // homePageUrl="/" 
+                // activePageText="Cloud Adoption" 
             />
             <CloudContent />
             {/* <RelatedServices /> */}
