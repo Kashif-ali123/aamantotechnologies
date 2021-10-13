@@ -3863,6 +3863,25 @@ Featured Services Area CSS
   border: 1px solid #eae1d6;
   margin-top: 8px;
 }
+.single-featured-services-box:hover{
+  background-color:#fff !important;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgb(3, 3, 3);
+
+}
+.featured-services-area{
+  background-color: rgba(30, 22, 102, 0.1);
+}
+.page-title-are {
+  position: relative;
+  z-index: 1;
+  /* background-image:  url(../images/services/artif.jpg) right top no-repeat; */
+  border-bottom: 1px solid #fafafa;
+  padding-top: 200px;
+  background-size: cover;
+ 
+  padding-bottom: 100px;
+}
 
 .single-featured-services-item .default-btn span {
   background-color: #ff5d22;
