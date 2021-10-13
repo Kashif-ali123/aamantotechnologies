@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactWOW from 'react-wow'
 import { Link } from 'gatsby'
-import aboutImage1 from '../../assets/images/about/about-img15.png'
+import bannerImg from '../../assets/images/cr.jpg'
 import starIcon from '../../assets/images/star-icon.png'
 // import icon4 from '../../assets/images/icons/icon4.png'
 // import icon5 from '../../assets/images/icons/icon5.png'
@@ -21,15 +21,15 @@ const About1 = () => {
                             <div className="content">
                             <ReactWOW delay='.5s' animation='fadeInRight'>
                                 <span className="sub-title">
-                                    <img src={starIcon} alt="banner"  style={{marginLeft:"30px"}}/> 
-                                    About Us
+                                    <img src={starIcon} alt="banner"  style={{marginLeft:"30px",width:"70px"}}/> 
+                                    CRM
                                 </span>
                                 {/* <h2>Drive Digital Revolution Through Data Science</h2> */}
-                                <p style={{marginLeft:"30px", textAlign:"justify"}}>Our team of experienced professionals specialize in delivering software solutions to clients in a wide range of industries. We utilize cutting-edge technologies to provide services such as end-to-end software development, data analytics, artificial intelligence, cloud adoption, digital transformation, agile development and project management. Our research and development team studies emerging technologies and market demand to provide quality industry-specific and innovative solutions to our clients worldwide.</p>
-                                <p style={{marginLeft:"30px", textAlign:"justify"}}>At Aamanto, we emphasize our core values of creativity, respect, teamwork, and transparency. Our employees are customer-focused and strive to provide valuable services and advice to all of our clients.</p>
+                                <p style={{marginLeft:"30px", textAlign:"justify"}}>A full-featured and customized CRM software development solution to help cover various customer touchpoints.</p>
+                                <p style={{marginLeft:"30px", textAlign:"justify", marginTop:"1px"}}>Customer Relationship Management (CRM) by its very name signifies that it is a tool to manage relationships with the clients. In the present era, when customers are the most valuable asset of the company and need to be put first before anything else, it has become essential to adopt a technology that connects the companies directly with them.</p>
                                  
-                                <Link to="/about-us" className="default-btn"  style={{marginLeft:"30px"}}>
-                                <i className="flaticon-right"></i> Learn More <span></span>
+                                <Link to="/contact" className="default-btn"  style={{marginLeft:"30px"}}>
+                                <i className="flaticon-right"></i> Get Started <span></span>
                             </Link>
                                 {/* <ul className="features-list">
                                     <li>
@@ -66,7 +66,7 @@ const About1 = () => {
                 <div className="col-lg-6 col-md-12">
                         <div className="about-image">
                         <ReactWOW delay='.5s' animation='fadeInLeft'>
-                            <img src={aboutImage1} alt="banner"  style={{width:"60%"}}/>
+                            <img src={bannerImg} alt="banner"  />
                             </ReactWOW>
                         </div>
                     </div>
