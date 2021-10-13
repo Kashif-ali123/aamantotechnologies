@@ -1563,12 +1563,9 @@ Main Banner Area CSS
 }
 
 .main-banner-item.item-bg1 {
-  background-image: url(../images/main-banner/main-banner1.jpg);
+  background-image: url(../images/about/crm.png);
 }
 
-.main-banner-item.item-bg2 {
-  background-image: url(../images/main-banner/main-banner2.jpg);
-}
 
 .banner-item-content {
   max-width: 720px;
