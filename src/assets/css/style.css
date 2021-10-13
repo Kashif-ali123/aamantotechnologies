@@ -269,12 +269,22 @@ a:hover {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
+.single-featured-services-box:hover{
+  background-color:#fff !important;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgb(3, 3, 3);
+
+}
+.featured-services-area{
+  background-color: rgba(30, 22, 102, 0.1);
+}
 
 .section-title h2 {
   margin-bottom: 0;
   position: relative;
   display: inline-block;
   font-size: 44px;
+  color: #0e1286;
 }
 
 .section-title h2 .overlay {
@@ -1539,7 +1549,7 @@ Main Banner Area CSS
 }
 
 .banner-area-content img {
-  margin-top: 50px;
+  margin-top:   50px;
 }
 
 .main-banner-item {
@@ -1553,13 +1563,12 @@ Main Banner Area CSS
 }
 
 .main-banner-item.item-bg1 {
-  background-image: url(../images/about/crm.png);
+  background-image: url(../images/main-banner/main-banner1.jpg);
 }
 
-
-/* .main-banner-item.item-bg2 {
+.main-banner-item.item-bg2 {
   background-image: url(../images/main-banner/main-banner2.jpg);
-} */
+}
 
 .banner-item-content {
   max-width: 720px;
@@ -1934,6 +1943,7 @@ Main Banner Area CSS
   z-index: 1;
   padding-top: 120px;
   padding-bottom: 120px;
+  height: 33em;
 }
 
 .digital-agency-banner .banner-wrapper-content {
@@ -2121,6 +2131,7 @@ About Area CSS
 .about-content .content h2 {
   margin-bottom: 15px;
   font-size: 44px;
+  color: #0e1286;
 }
 
 .about-content .content p {
@@ -2228,7 +2239,7 @@ About Area CSS
 }
 
 .about-content .content .about-list li:hover i {
-  background-color: #ff5d22;
+  background-color: #0e1286;
   color: #ffffff;
 }
 
@@ -3502,11 +3513,19 @@ Services Details Area CSS
   position: relative;
   margin-bottom: 30px;
   border-radius: 5px;
+  
+
+ 
 }
 
 .services-details-image img {
   border-radius: 5px;
   width: 100%;
+  
+ 
+ 
+ 
+  /* background-image: url('../images/services/ser.jpg'); */
 }
 
 .services-details-image-slides.owl-theme {
@@ -3562,7 +3581,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .sub-title {
-  color: #ff5d22;
+  color: #0e1286;
   display: block;
   margin-bottom: -18px;
   font-size: 16px;
@@ -3576,7 +3595,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .image {
-  padding-right: 15px;
+ 
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -3862,25 +3881,6 @@ Featured Services Area CSS
   color: #ff5d22;
   border: 1px solid #eae1d6;
   margin-top: 8px;
-}
-.single-featured-services-box:hover{
-  background-color:#fff !important;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: rgb(3, 3, 3);
-
-}
-.featured-services-area{
-  background-color: rgba(30, 22, 102, 0.1);
-}
-.page-title-are {
-  position: relative;
-  z-index: 1;
-  /* background-image:  url(../images/services/artif.jpg) right top no-repeat; */
-  border-bottom: 1px solid #fafafa;
-  padding-top: 200px;
-  background-size: cover;
- 
-  padding-bottom: 100px;
 }
 
 .single-featured-services-item .default-btn span {
@@ -9991,17 +9991,6 @@ Page Title Area CSS
   bottom: 25%;
   left: 5%;
 }
-.page-title-are img
-{
- 
-  bottom: 10%;
-  z-index: 1;
-  right: 30px;
-  -webkit-animation: rotate3d 4s linear infinite;
-          animation: rotate3d 4s linear infinite;
-  opacity: .5;
-}
-
 
 .page-title-area.page-title-style-two {
   padding-top: 120px;
@@ -11944,38 +11933,83 @@ Go Top CSS
 }
 /*# sourceMappingURL=style.css.map */
 
-/*# Custom Styling */
-.owl-carousel .owl-item img{
-  display: inline !important;
-    width: auto !important;
+/*================================================
+Commons.css Styling
+=================================================*/
+.navbar-area{
+  background-color: #ffffff;
+  box-shadow: 5px 2px 5px 2px #ccc;
 }
-.heading-highlight{
-  font-size: 25px; 
-  color: #fff;
-  background-color: #e85a2a;
-  padding: 5px;
-  border-radius: 5px;
+.digital-agency-banner{
+  background: linear-gradient(75deg, #3d89b5 10%, #058ae8) !important;
 }
-.owl-theme .owl-nav.disabled+.owl-dots{
-  margin-top: -70px !important;
+.service-description{
+  padding-top: 30px;
 }
-.single-projects-box:hover{
-  box-shadow: 2px 2px 5px 5px #ccc;
-  transition: 1s;
+.single-solutions-box-software{
+    padding: 20px;
+    border: 2px solid #ededed;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 50px;
 }
-/*# Coommons.css Styling here */
-.case-study-slides.owl-carousel:hover .owl-nav .owl-prev, .case-study-slides.owl-carousel:hover .owl-nav .owl-next{
-  top: 350px;
+.single-solutions-box-software:hover{
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px 2px #ccc;
+  transition: 0.5s;
+  border: 2px solid #59afff;
 }
-.single-solutions-box{
-  height: 25em;
+.icon-software{
+  font-size: 2.5em;
 }
-.single-solutions-box:hover{
-  box-shadow: 2px 2px 5px 5px #ccc;
+.main-banner-item.item-bg1{
+  background-image: url('https://www.align.com/hubfs/2019%20Blog%20Images/771-abstract-cloud-technology-system-sci-fi-background-blue-800x400.png') !important;
 }
-.single-solutions-box:hover .view-details-btn{
-  background-color: #59afff;
-    padding: 5px;
-    border-radius: 5px;
-    border-color: #59afff;
+.banner-item-content .sub-title{
+  color:#fff;
+}
+.about-content .content .about-list li:hover{
+  background: #60bffe;
+  color:#fff;
+}
+.main-banner-item.item-bg-digital{
+  background-image: url('https://mk0bannerflowss888vj.kinstacdn.com/app/uploads/zazzle_blog-header.jpg')
+}
+.digital-agency-banner-mobile{
+  background: linear-gradient(75deg, #0093a9 10%, #7dc9ff) !important;
+  padding-top: 150px;
+}
+.main-banner-item.item-bg-cyber{
+  background-image: url('https://www.thorntons-law.co.uk/sites/default/files/uploads/media/Banners%202021/Service%20Gateway/Data%20Protection%20-%20Gateway%20copy%202.jpg');
+}
+.banner-wrapper-image-cloud{
+  width: 33em;
+}
+.banner-wrapper-image{
+  width: 25em;
+}
+.digital-agency-banner-mobile{
+  background: linear-gradient(75deg, #3d89b5 10%, #058ae8) !important;
+  padding-top: 200px;;
+}
+.digital-agency-banner-mobile.banner-wrapper-content .sub-title{
+  color:#ffffff !important;
+}
+.digital-agency-banner-mobile.banner-wrapper-content h1{
+  color:#ffffff !important;
+}
+/*================================================
+Animation Styling
+=================================================*/
+.banner-item-content{
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+.services-details-desc .sub-title{
+  animation: fadeInLeft;
+  animation-duration: 2s; 
+}
+.service-description{
+  animation: fadeInRight;
+  animation-duration: 2.5s; 
 }

@@ -213,7 +213,7 @@ a {
         transform: translateY(-50%);
         font: {
             weight: 700;
-            size: 16.5px;
+            size: 20px;
         };
         &.flaticon-user {
             margin-top: -1.5px;
@@ -247,7 +247,7 @@ a {
         color: $main-color;
         font: {
             weight: 700;
-            size: 15px;
+            size: 20px;
         };
         img {
             margin-right: 5px;
@@ -1750,10 +1750,11 @@ Main Banner Area CSS
         position: bottom center;
         size: cover;
         repeat: no-repeat;
+        height: 40;
     };
     padding: {
-        top: 220px;
-        bottom: 210px;
+        top: 210px;
+        bottom: 220px;
     };
     .main-banner-content {
         margin-top: 0;
