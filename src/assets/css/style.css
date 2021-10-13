@@ -295,7 +295,6 @@ a:hover {
   margin-top: 12px;
 }
 
-
 /*form-control*/
 .form-control {
   height: 50px;
@@ -862,7 +861,7 @@ Navbar Area CSS
 
 .tarn-nav .navbar .others-option .option-item .search-box {
   position: relative;
-  width: 200px;
+  width: 300px;
   border-radius: 5px;
 }
 
@@ -1540,7 +1539,7 @@ Main Banner Area CSS
 }
 
 .banner-area-content img {
-  margin-top:   10px;
+  margin-top: 50px;
 }
 
 .main-banner-item {
@@ -1554,12 +1553,12 @@ Main Banner Area CSS
 }
 
 .main-banner-item.item-bg1 {
-  background-image: url(../images/about/crm.png);
+  background-image: url(../images/main-banner/main-banner1.jpg);
 }
 
-/* .main-banner-item.item-bg2 {
+.main-banner-item.item-bg2 {
   background-image: url(../images/main-banner/main-banner2.jpg);
-} */
+}
 
 .banner-item-content {
   max-width: 720px;
@@ -2125,9 +2124,7 @@ About Area CSS
 
 .about-content .content p {
   margin-bottom: 20px;
-  margin-top: 50px;
 }
-
 
 .about-content .content p:last-child {
   margin-bottom: 0;
@@ -2281,12 +2278,6 @@ About Area CSS
 
 .about-image {
   text-align: center;
-  bottom: 10%;
-  z-index: 1;
-  right: 30px;
-  -webkit-animation: rotate3d 4s linear inherit;
-          animation: rotate3d 4s linear inherit;
-  
 }
 
 .about-image-box {
@@ -2296,7 +2287,6 @@ About Area CSS
   border-radius: 5px;
   padding-bottom: 15px;
   padding-right: 15px;
-  margin-top: 50px;
 }
 
 .about-image-box img {
@@ -3511,19 +3501,11 @@ Services Details Area CSS
   position: relative;
   margin-bottom: 30px;
   border-radius: 5px;
-  
-
- 
 }
 
 .services-details-image img {
   border-radius: 5px;
   width: 100%;
-  
- 
- 
- 
-  /* background-image: url('../images/services/ser.jpg'); */
 }
 
 .services-details-image-slides.owl-theme {
@@ -3593,7 +3575,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .image {
- 
+  padding-right: 15px;
   border-radius: 5px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -3925,15 +3907,6 @@ Featured Services Area CSS
   margin-bottom: 30px;
   position: relative;
   padding-right: 15px;
-}
-.single-featured-services-box:hover{
-  background-color:#fff !important;
-  border-radius: 20px 20px 20px 20px;
-  box-shadow: rgb(3, 3, 3);
-
-}
-.featured-services-area{
-  background-color: rgba(30, 22, 102, 0.1);
 }
 
 .single-featured-services-box .icon {
@@ -8603,9 +8576,6 @@ Testimonials Area CSS
   padding: 130px 50px 50px;
   text-align: center;
 }
-.single-testimonials-item:hover p{
-  color: #ff5d22;
-}
 
 .single-testimonials-item p {
   margin-bottom: 0;
@@ -9990,31 +9960,15 @@ Page Title Area CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background-image:  url(../images/page-title-bg.jpg) right top no-repeat;
-  border-bottom: 1px solid #252020;
-  padding-top: 200px;
-  padding-bottom: 100px;
-}
-.page-title-are {
-  position: relative;
-  z-index: 1;
-  background-image:  url(../images/services/artif.jpg) right top no-repeat;
+  background: transparent url(../images/page-title-bg.jpg) right top no-repeat;
   border-bottom: 1px solid #fafafa;
   padding-top: 200px;
-  background-size: cover;
- 
   padding-bottom: 100px;
 }
 
-
 .page-title-area .shape-img1 {
- 
+  top: auto;
   bottom: 25%;
-  left: 5%;
-}
-.page-title-are img {
- 
-  bottom: 35%;
   left: 5%;
 }
 
@@ -10083,16 +10037,6 @@ Page Title Area CSS
   -webkit-animation: rotate3d 4s linear infinite;
           animation: rotate3d 4s linear infinite;
   opacity: .25;
-}
-.page-title-are img
-{
- 
-  bottom: 10%;
-  z-index: 1;
-  right: 30px;
-  -webkit-animation: rotate3d 4s linear infinite;
-          animation: rotate3d 4s linear infinite;
-  opacity: .5;
 }
 
 .shape-img3 {
@@ -11968,3 +11912,39 @@ Go Top CSS
           transform: translateY(-5px);
 }
 /*# sourceMappingURL=style.css.map */
+
+/*# Custom Styling */
+.owl-carousel .owl-item img{
+  display: inline !important;
+    width: auto !important;
+}
+.heading-highlight{
+  font-size: 25px; 
+  color: #fff;
+  background-color: #e85a2a;
+  padding: 5px;
+  border-radius: 5px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: -70px !important;
+}
+.single-projects-box:hover{
+  box-shadow: 2px 2px 5px 5px #ccc;
+  transition: 1s;
+}
+/*# Coommons.css Styling here */
+.case-study-slides.owl-carousel:hover .owl-nav .owl-prev, .case-study-slides.owl-carousel:hover .owl-nav .owl-next{
+  top: 350px;
+}
+.single-solutions-box{
+  height: 25em;
+}
+.single-solutions-box:hover{
+  box-shadow: 2px 2px 5px 5px #ccc;
+}
+.single-solutions-box:hover .view-details-btn{
+  background-color: #59afff;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #59afff;
+}
