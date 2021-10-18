@@ -1,5 +1,5 @@
 import React from 'react'
-import client1 from '../../assets/images/user1.jpg'
+import client1 from '../../assets/images/services/gather.png'
 import client2 from '../../assets/images/user2.jpg'
 import client3 from '../../assets/images/user3.jpg'
 import shape9 from '../../assets/images/shape/vector-shape9.png'
@@ -42,8 +42,8 @@ const Testimonials = () => {
         <section className="testimonials-area bg-23173a pt-100 pb-70">
             <div className="container">
                 <div className="section-title">
-                    <h2>What Our Clients are Saying?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>PROCESS OF CUSTOM SOFTWARE DEVELOPMENT</h2>
+                    <p>Aamanto web design and development team has developed a number of useful services to help you transform your business.</p>
                 </div>
 
                 {display ? <OwlCarousel 
@@ -51,17 +51,18 @@ const Testimonials = () => {
                     {...options}
                 > 
                     <div className="single-testimonials-item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-
-                        <div className="client-info">
+                    <div className="client-info">
                             <div className="d-flex justify-content-center align-items-center">
                                 <img src={client1} alt="testimonial" />
-                                <div className="title">
-                                    <h3>Alex Maxwell</h3>
-                                    <span>CEO at EnvyTheme</span>
-                                </div>
-                            </div>
+                                
+                                    </div>
                         </div>
+                        <h3>Gathering Information</h3>
+                        <p>Clients are our top priority, and we endeavor to provide them with only the best service. As a result, we begin by examining the expectations and requirements of our clients. Our team gathers all relevant information about your company, goals, market, rivals, and other factors before moving forward.</p>
+
+                        
+                                
+                         
                     </div>
 
                     <div className="single-testimonials-item">
