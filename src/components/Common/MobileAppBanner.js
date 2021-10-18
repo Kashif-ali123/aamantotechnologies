@@ -1,12 +1,38 @@
 import React from 'react';
 import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
-import bannerImg from '../../assets/images/cr.png'
+import bannerImg from '../../assets/images/services/mobile-app.png'
 
+// import Loadable from '@loadable/component'
+// const ModalVideo = Loadable(() => import('react-modal-video'))
+// const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
+// const options = {
+//     loop: true,
+//     nav: true,
+//     dots: false,
+//     autoplayHoverPause: true,
+//     autoplay: true,
+//     items: 1,
+//     navText: [
+//         "<i class='flaticon-left-1'></i>",
+//         "<i class='flaticon-right-1'></i>"
+//     ]
+// };
 
-const CrmBanner = () => {
-  
+const MobileAppBanner = () => {
+    // Popup Video
+    // const [isOpen, setIsOpen] = React.useState(true);
+    // const openModal = () => {
+    //     setIsOpen(!isOpen);
+    // }
+
+    // Owl Carousel
+    // const [display, setDisplay] = React.useState(false);
+
+    // React.useEffect(() => {
+    //     setDisplay(true);
+    // }, [])
 
     return (
        
@@ -18,11 +44,11 @@ const CrmBanner = () => {
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff"}}>CRM</h1>
+                            <h1 style={{fontSize:"30px", color:"#fff"}}>MOBILE APPS</h1>
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p style={{textAlign:"justify",  color:"#fff"}}>Customer Relationship Management (CRM) is a tool for managing customer relationships. In today's world, when consumers are a company's most precious asset and must be prioritized above all else, adopting technology that connects businesses directly with them has become critical. CRM is one solution that makes it possible and increases the company's profitability. </p>
+                            <p style={{textAlign:"justify",  color:"#fff"}}>We will assist you from the first concept design of your app through its launch on selected platforms, since we've produced over 1000+ apps. We have the appropriate combination of amazing technology, people, and experience to create unique apps that work wonders for your organization. Get solutions that help you stand out from the crowd, from native to cross-platform apps. </p>
                            
                         </ReactWOW>
 
@@ -52,4 +78,4 @@ const CrmBanner = () => {
     )
 }
 
-export default CrmBanner;
+export default MobileAppBanner;

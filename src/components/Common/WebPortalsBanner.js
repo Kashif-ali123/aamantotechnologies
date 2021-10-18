@@ -1,28 +1,54 @@
 import React from 'react';
 import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
-import bannerImg from '../../assets/images/cr.png'
+import bannerImg from '../../assets/images/web-portal.png'
 
+// import Loadable from '@loadable/component'
+// const ModalVideo = Loadable(() => import('react-modal-video'))
+// const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
+// const options = {
+//     loop: true,
+//     nav: true,
+//     dots: false,
+//     autoplayHoverPause: true,
+//     autoplay: true,
+//     items: 1,
+//     navText: [
+//         "<i class='flaticon-left-1'></i>",
+//         "<i class='flaticon-right-1'></i>"
+//     ]
+// };
 
-const CrmBanner = () => {
-  
+const WebPortalsBanner = () => {
+    // Popup Video
+    // const [isOpen, setIsOpen] = React.useState(true);
+    // const openModal = () => {
+    //     setIsOpen(!isOpen);
+    // }
+
+    // Owl Carousel
+    // const [display, setDisplay] = React.useState(false);
+
+    // React.useEffect(() => {
+    //     setDisplay(true);
+    // }, [])
 
     return (
        
          
-                <div className="main-banner-item item-bg1" style={{height:"650px"}}>
+                <div className="main-banner-item item-bg1">
                 <div className="page-title-are">
         <div className="container">
         <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff"}}>CRM</h1>
+                            <h1 style={{fontSize:"30px", color:"#fff"}}>Web Portals</h1>
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p style={{textAlign:"justify",  color:"#fff"}}>Customer Relationship Management (CRM) is a tool for managing customer relationships. In today's world, when consumers are a company's most precious asset and must be prioritized above all else, adopting technology that connects businesses directly with them has become critical. CRM is one solution that makes it possible and increases the company's profitability. </p>
+                            <p style={{textAlign:"justify",  color:"#fff"}}>A web portal is a specially designed website that often serves as the single point of access for information. It can also be considered a library of personalized and categorized content.</p>
                            
                         </ReactWOW>
 
@@ -52,4 +78,4 @@ const CrmBanner = () => {
     )
 }
 
-export default CrmBanner;
+export default WebPortalsBanner;
