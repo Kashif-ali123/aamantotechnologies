@@ -16,7 +16,7 @@ const Footer = () => {
                             <a href="/" className="logo">
                                 <img src={logo1} alt="logo" style={{width:"300px"}} />
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <p>We design unique software solutions to address the demands of specific businesses; we believe in innovation, and we are here to help.</p>
 
                             <ul className="social-link">
                                 <li>

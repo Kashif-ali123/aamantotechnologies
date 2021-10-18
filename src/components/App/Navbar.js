@@ -361,7 +361,7 @@ const Navbar = () => {
 
                                              <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/mobile-detail" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -613,6 +613,26 @@ const Navbar = () => {
                                                     className="nav-link"
                                                 >
                                                    Aamanto Team
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link 
+                                                    to="#" 
+                                                    activeClassName="active"
+                                                    onClick={() => setCollapsed(true)}
+                                                    className="nav-link"
+                                                >
+                                                   Our Vision
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link 
+                                                    to="#" 
+                                                    activeClassName="active"
+                                                    onClick={() => setCollapsed(true)}
+                                                    className="nav-link"
+                                                >
+                                                   Our Process
                                                 </Link>
                                             </li>
 
