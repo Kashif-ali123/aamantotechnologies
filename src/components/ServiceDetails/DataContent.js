@@ -1,14 +1,19 @@
 import React from 'react'
-// import ServiceSidebar from './ServiceSidebar'
-// import details1 from '../../assets/images/services/data-science.jpg'
-import project2 from '../../assets/images/services/science.jpg'
-// import charts from '../../assets/images/services/chart3.jpg'
+import ReactWOW from 'react-wow'
+
 
 const DataContent = () => {
     return (
         <>
-        <section className="services-details-area ptb-80">
+        <section className="services-details-area ptb-100 bg-image">
             <div className="container">
+            <ReactWOW delay='.1s' animation='fadeInLeft'>
+                <h2 style={{marginTop:"-50px"}}>DATA SCIENCE AND ANALYTICS</h2>
+                </ReactWOW>
+                <ReactWOW delay='.1s' animation='fadeInRight'>
+            <p >As digital transformation is a journey, not a destination; you will need an experienced team to assist you in leveraging new technologies and reaping the benefits of being a digital business.
+Aamanto Digital Transformation practice is built on considerable experience transforming legacy systems into cutting-edge design environments. We know how to break down internal barriers, move and improve applications in the cloud, accelerate custom software development operations, and execute a data-driven approach to digital service delivery. Engage with Aamanto Technologies to speed up your cloud migration, develop new consumer experiences, rethink business strategies, and boost efficiency and productivity. We operate quickly to accomplish your objective in a secure, dependable, and scalable manner.</p>
+             </ReactWOW>
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
                         <div className="services-details-image">
@@ -16,138 +21,7 @@ const DataContent = () => {
                         </div>
 
                         <div className="services-details-desc">
-                            <span className="sub-title"><h1>Data Science & Analytics</h1></span>
-                            <p className="service-description">Aamanto enables businesses to provide quality services to the customers by assisting them in advancing the analytics maturity curve by providing actionable insights that lead to data-driven solutions. At Aamanto, we employ cutting-edge business intelligence and data intelligence solutions to help clients extract meaningful insights from a variety of real-time and large sets of data. We help businesses integrate huge amounts of structured, semi-structured, and unstructured information from different sources into a single, holistic ecosystem that can be utilized to model and predict emerging opportunities.
-
-</p>
-                            
-                            <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="image">
-                                        <img src={project2} alt="about" />
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="content">
-                                        <h3>Important Facts</h3>
-                                        <ul>
-                                            <li>The Field of Data Science</li>
-                                            <li>The Problem</li>
-                                            <li>The Solution</li>
-                                            <li>The Skills</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                          
-                           
-                            {/* <div className="charts-image">
-                                <img src={charts} alt="about" />
-                            </div> */}
-                            <h3>Data Science and Analytics Offerings</h3>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-factory"></i>
-                                        </div>
-                                        Predictive & Descriptive Analytics
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-house"></i>
-                                        </div>
-                                        Data Engineering
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-hospital"></i>
-                                        </div>
-                                        Big Data & Real-Time Analytics
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-tracking"></i>
-                                        </div>
-                                        Pattern Recognition
-                                    </div>
-                                </div>
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-investment"></i>
-                                        </div>
-                                        Statistical Modeling
-                                    </div>
-                                </div>
-            
-                               
-            
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Attribution Modeling
-                                    </div>
-                                </div>
-                            
-                            <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Decision/Portfolio Optimization
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Content Optimization
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <div className="single-industries-serve-box">
-                                        <div className="icon">
-                                            <i className="flaticon-order"></i>
-                                        </div>
-                                        Dashboard Presentation
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* <h3>Technologies That We Use</h3>
-                            <ul className="technologies-features">
-                                <li><span>JavaScript</span></li>
-                                <li><span>Python</span></li>
-                                <li><span>Java</span></li>
-                                <li><span>React Js </span></li>
-                                <li><span>PHP</span></li>
-                                <li><span>Swift</span></li>
-                                <li><span>C# (C- Sharp)</span></li>
-                                <li><span>Reactive Native</span></li>
-                                <li><span>Angular</span></li>
-                                <li><span>Node Js</span></li>
-                                <li><span>MongoDB</span></li>
-                                <li><span>MYSQL</span></li>
-
-                                
-                            </ul> */}
-                           
+                                     
                         </div>
                     </div>
                     
@@ -157,6 +31,112 @@ const DataContent = () => {
                     </div>
             </div>
             </section>
+           
+            <div className="funfacts-area bg-image">
+            <div className="container">
+         
+      
+                <div className="row">
+                <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1  style={{color:"#fff", marginTop:"40px"}}>OUR SPECTRUM FOR BIG DATA ANALYSIS</h1>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInRight'>
+                    <p  style={{marginBottom:"40px",color:"#fff"}}>To Make Better Business Decisions, Leverage Big Data Analytics Solutions.</p>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item">
+                            {/* <div className="icon">
+                                <img src={FunIcon1} alt="FunIcon" />
+                            </div> */}
+                             <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}> Data Warehousing </h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>You may get real-time data warehousing with Aamanto, which includes change data capture (CDC) and optimal integration to numerous data warehouse platforms.</p>
+                          </ReactWOW>
+                        </div>
+                    </div>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInRight'>
+
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item">
+                            {/* <div className="icon">
+                                <img src={FunIcon2} alt="FunIcon" />
+                            </div> */}
+                             <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}>Data Related Issues</h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>We efficiently address any data-related issues and provide a comprehensive solution for translating and processing raw data into refined data.</p>
+                            </ReactWOW>
+                        </div>
+                    </div>
+                   </ReactWOW>
+                   <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item" >
+                            {/* <div className="icon">
+                                <img src={FunIcon3} alt="FunIcon" />
+                            </div> */}
+                             <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}>Data Lake </h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>Using Hadoop’s data environments, one can build, deploy, and analyses data quicker. Our Data Lake services automate the processing of big data in the cloud in a really cost-effective and efficient manner.</p>
+                           </ReactWOW>
+                        </div>
+                    </div>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInRight'>
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item" >
+                            {/* <div className="icon">
+                                <img src={FunIcon3} alt="FunIcon" />
+                            </div> */}
+                             <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}>ETL for Analytics </h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>With extraction of data from databases, transformation that includes cleaning, sorting, and validating rules, and loading of data into a data warehouse, data is retrieved from operational systems and pre-processed for analysis.</p>
+                         </ReactWOW>
+                        </div>
+                    </div>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item" >
+                            {/* <div className="icon">
+                                <img src={FunIcon3} alt="FunIcon" />
+                            </div> */}
+                              <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}>Data Integration Services </h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>At Aamanto, we provide highly adaptable and cost-effective Data Integration services across a wide range of domains, as well as solutions to complicated problems. Access to sensitive information within your organization helps in making better business decisions.</p>
+                          </ReactWOW>
+                        </div>
+                    </div>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='fadeInRight'>
+                    <div className="col-lg-6 col-sm-3 col-6 col-md-3">
+                        <div className="single-funfacts-item" >
+                            {/* <div className="icon">
+                                <img src={FunIcon3} alt="FunIcon" />
+                            </div> */}
+                              <ReactWOW delay='.1s' animation='fadeInLeft'>
+                            <h3 style={{marginTop:"50px"}}>Batch Processing </h3>
+                            </ReactWOW>
+                            <ReactWOW delay='.1s' animation='fadeInRight'>
+                            <p style={{color:"#fff"}}>Our method simplifies and speeds up the collection and processing of large amounts of data. We employ one-of-a-kind processing, input, and output programs that are suited for a wide range of activities.</p>
+                           </ReactWOW>
+                        </div>
+                    </div>
+                   </ReactWOW>
+                </div>
+            </div>
+        </div>
              
  </>
             

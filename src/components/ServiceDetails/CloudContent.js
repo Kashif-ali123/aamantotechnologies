@@ -1,112 +1,148 @@
 import React from 'react'
-import {Link} from 'gatsby'
 import ReactWOW from 'react-wow'
-// import ServiceSidebar from './ServiceSidebar'
-// import details1 from '../../assets/images/services/cloud-adoption.jpg'
-import project2 from '../../assets/images/services/cloud.png'
-import charts from '../../assets/images/services/chart2.png'
-import AboutImage from '../../assets/images/about/about-img10.png'
-import AboutShape from '../../assets/images/about/about-shape1.png'
-import StarIcon from '../../assets/images/star-icon.png'
-import OurMissionShape from '../../assets/images/our-mission/our-mission-shape2.png'
-import CircleShape from '../../assets/images/shape/circle-shape1.png'
+import Loadable from '@loadable/component'
+const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
+
+const options = {
+    loop: true,
+    nav: true,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplay: true,
+    margin: 30,
+    navText: [
+        "<i class='flaticon-left-1'></i>",
+        "<i class='flaticon-right-1'></i>"
+    ],
+    responsive: {
+        0: {
+            items: 1,
+        },
+        768: {
+            items: 2,
+        },
+        992: {
+            items: 2,
+        }
+    }
+};
 
 const CloudContent = () => {
+    const [display, setDisplay] = React.useState(false);
+
+    React.useEffect(() => {
+        setDisplay(true);
+    }, [])
     return (
-        <>
-        <section className="services-details-area ptb-80">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 col-md-12">
-                        <div className="services-details-image">
-                            {/* <img src={details1} alt="about" /> */}
-                        </div>
+        <section className="testimonials-area bg-231733 pt-100 pb-70" style={{marginTop:"50px"}}>
+        <div className="container">
+        <ReactWOW delay='.1s' animation='fadeInRight'>
+          <h2>CLOUD ADOPTION</h2>
 
-                        <div className="services-details-desc">
-                            <span className="sub-title"><h1>Cloud Adoption</h1></span>
-                            
-                            <p  className="service-description">Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications for companies ranging from small businesses to large enterprises, whether you are already in the Cloud, having considered Cloud Migration, or looking to develop a Cloud-Native application. We thrive in private, hybrid, and public cloud systems, assisting our customers in the development of high-performance, scalable, and reliable solutions that maximize the return on cloud projects, reduce costs, and minimize risk.<br/>
-                            WTransformation is a complex process that requires intricate planning and flawless execution. A single misstep can prove to be costly and time consuming. Whether your business is transitioning from on-premises to multi-cloud or hybrid cloud, our experience and utilization of best practices and effective project management ensures our clients are satisfied and their migration is successful – opening the doors for future business growth.</p>
-                            
-                            
+          <p>Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications for companies ranging from small businesses to large enterprises, whether you are already in the Cloud, having considered Cloud Migration, or looking to develop a Cloud-Native application. We thrive in private, hybrid, and public cloud systems, assisting our customers in the development of high-performance, scalable, and reliable solutions that maximize the return on cloud projects, reduce costs, and minimize risk.</p>
+                                
+         </ReactWOW>
 
-                           
-                           
+            <div className="section-title">
+            <ReactWOW delay='.1s' animation='fadeInLeft'>
+                <h2>FEATURES OF OUR SERVICES INCLUDES:</h2>
+                </ReactWOW>
+               
+            </div>
+
+            {display ? <OwlCarousel 
+                className="testimonials-slides owl-carousel owl-theme"
+                {...options}
+            > 
+             <ReactWOW delay='.1s' animation='fadeInRight'>
+                <div className="single-testimonials-box">
+                    {/* <img src={user1} className="shadow-sm" alt="testimonials" style={{backgroundColor:"#fff", width:"300px"}} /> */}
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1 >Recovery and Backup</h1>
+                    <p>When it comes to cloud backup and recovery, our solution takes care of your company's Amazon Web Services (AWS) data. This involves providing a secure, scalable, and extremely durable storage solution that eliminates the need for on-premise infrastructure.</p>
+                   </ReactWOW>
+{/*                
+                    <div className="client-info">
+                        <div className="title">
+                            <h3>Alex Maxwell</h3>
+                            <span>CEO at EnvyTheme</span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-            </div>
-        </section>
-             
-        <section className="about-area ptb-100">
-            <div className="container-fluid">
-                <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12">
-                        <div className="about-img">
-                        <ReactWOW delay='2.2s' animation='fadeInLeft'>
-                            <img src={AboutImage} alt="About Image" />
-                        </ReactWOW>
-                            <div className="shape">
-                                <img src={AboutShape} alt="About Shape" />
-                            </div>
+                </ReactWOW>
+                <ReactWOW delay='.1s' animation='fadeInLeft'>
+                <div className="single-testimonials-box">
+                    {/* <img src={user2} className="shadow-sm" alt="testimonials" /> */}
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1>AWS Cloud Databases</h1>
+                    <p>The AWS cloud database services are comprehensive enough to fulfill your company's application needs. Amazon Aurora, Amazon DynamoDB, Amazon Relational Database Service (Amazon RDS), Amazon Redshift, and Amazon ElastiCache are among the services offered.  Our services manage everything.</p>
+                   </ReactWOW>
+                    {/* <div className="client-info">
+                        <div className="title">
+                            <h3>David Warner</h3>
+                            <span>CEO at Envato</span>
                         </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-12">
-                        <div className="about-content">
-                            <div className="content">
-                            <ReactWOW delay='2s' animation='fadeInLeft'>
-                                <h2>Cloud Services</h2>
-                                <p>Aamanto will support you with our in-depth cloud engineering expertise and over years of experience modernizing legacy solutions and developing innovative applications</p>
-                            </ReactWOW>
-                            <ReactWOW delay='2.5s' animation='fadeInRight'>
-                                <ul className="about-list">
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Big Data
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Data Visualization
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Data Warehousing
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Data Management
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Business Intelligence
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                    <li>
-                                        <i className="flaticon-tick"></i>
-                                        Business Intelligence
-                                        <img src={OurMissionShape} alt="Our Mission Shape" />
-                                    </li>
-                                </ul>
-                              </ReactWOW>
-                            </div>
-                        </div>
-                    </div>
+                    </div> */}
                 </div>
-            </div>
+                </ReactWOW>
+                <ReactWOW delay='.1s' animation='fadeInRight'>
 
-            <div className="circle-shape1">
-                <img src={CircleShape} alt="Circle Shape" />
-            </div>
-        </section>
-    ) 
- </>
-            
-       
+                <div className="single-testimonials-box">
+                    {/* <img src={user3} className="shadow-sm" alt="testimonials" /> */}
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1 >Amazon CloudFront</h1>
+                    <p>Amazon CloudFront is a global content delivery network (CDN) service that provides highly secure distribution of data, videos, applications, and APIs. Our professionals are dedicated to ensuring that CloudFront runs smoothly for you.</p>
+                   </ReactWOW>
+                    {/* <div className="client-info">
+                        <div className="title">
+                            <h3>Sarah Taylor</h3>
+                            <span>CEO at ThemeForest</span>
+                        </div>
+                    </div> */}
+                </div>
+                </ReactWOW>
+                <ReactWOW delay='.1s' animation='fadeInLeft'>
+                <div className="single-testimonials-box">
+                    {/* <img src={user4} className="shadow-sm" alt="testimonials" /> */}
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1 >Faster Problem Recovery</h1>
+                    <p>Enterprises increasingly want cloud-based disaster recovery for their essential IT systems that operate without disrupting workflow in the case of a disaster. The AWS cloud simulates a successful disaster recovery scenario, and we guide businesses through the entire process.</p>
+                   </ReactWOW>
+                    {/* <div className="client-info">
+                        <div className="title">
+                            <h3>Sarah Taylor</h3>
+                            <span>CEO at ThemeForest</span>
+                        </div>
+                    </div> */}
+                </div>
+                </ReactWOW>
+                <ReactWOW delay='.1s' animation='fadeInRight'>
+                <div className="single-testimonials-box">
+                    {/* <img src={user5} className="shadow-sm" alt="testimonials" /> */}
+                    <ReactWOW delay='.1s' animation='fadeInLeft'>
+                    <h1 >Data Archiving</h1>
+                    <p>Are you thinking about archiving your data? You might be able to use services like Amazon Glacier or Amazon Simple Storage Service in your cloud. Our experts will assist you in making the best decision for your company's needs. </p>
+                    </ReactWOW>
+                    {/* <div className="client-info">
+                        <div className="title">
+                            <h3>Sarah Taylor</h3>
+                            <span>CEO at ThemeForest</span>
+                        </div>
+                    </div> */}
+                </div>
+                </ReactWOW>
+              
+            </OwlCarousel> : ''}
+        </div>
+
+        {/* <div className="vector-shape9">
+            <img src={shape9} alt="testimonials" />
+        </div>
+        <div className="vector-shape10">
+            <img src={shape10} alt="testimonials" />
+        </div> */}
+    </section>
+     
     )
 }
 
