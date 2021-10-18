@@ -1,16 +1,17 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import ReactWOW from 'react-wow'
 import starIcon from '../../assets/images/star-icon.png'
-import caseStudy1 from '../../assets/images/case-study/case-study1.jpg'
+// import caseStudy1 from '../../assets/images/case-study/case-study1.jpg'
 import Loadable from '@loadable/component'
-import scientist1 from '../../assets/images/icons/icon1.png'
+// import scientist1 from '../../assets/images/icons/icon1.png'
 import project1 from '../../assets/images/projects/project1.jpg'
 import project2 from '../../assets/images/projects/project2.jpg'
 import project3 from '../../assets/images/projects/project3.jpg'
 import project4 from '../../assets/images/projects/project4.jpg'
 import project5 from '../../assets/images/projects/project5.jpg'
 import project6 from '../../assets/images/projects/project6.jpg'
-import OurSolutions from './OurSolutions'
+// import OurSolutions from './OurSolutions'
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
 const options = {
@@ -36,12 +37,17 @@ const Solutions = () => {
     return (
         <div className="case-study-are">
             <div className="section-title">
+            <ReactWOW delay='.1s' animation='bounceInUp'>
                     <span className="sub-title" style={{marginTop:"40px"}}>
-                        <img src={starIcon} alt="star"  /> 
+                        <img src={starIcon} alt="star" style={{width:"50px"}} /> 
                      Solutions We Offer
                     </span>
+                    </ReactWOW>
+                    <ReactWOW delay='.1s' animation='bounceInDown'>
                     {/* <h2>We Different From Others Should Choose Us</h2> */}
-                    <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p style={{textAlign:"justify"}}>We work towards developing solutions that are not only technically sound but also serve as a foundation for your company's digital platform. We have the experience, skills, and resources to help you convert your problems into opportunities.
+</p>
+                </ReactWOW>
                 </div>
             {display ? <OwlCarousel 
                 className="case-study-slides owl-carousel owl-theme"
@@ -62,11 +68,14 @@ const Solutions = () => {
 
                             <div className="content">
                                 <h1>
-                                    <Link to="#">
+                                    <Link to="/crm">
                                      CRM
                                     </Link>
                                 </h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <p>CRM Development Services are provided by Aamanto Technologies to support you in achieving more effective interaction with customers and successful business.</p>
+                              <Link to="/crm" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -89,6 +98,9 @@ const Solutions = () => {
                                     </Link>
                                 </h1>
                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                               <Link to="#" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -106,11 +118,14 @@ const Solutions = () => {
 
                             <div className="content">
                                 <h1>
-                                    <Link to="#">
+                                    <Link to="/mobile-detail">
                                        Mobile App
                                     </Link>
                                 </h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>We create secure and dependable mobile apps that help your company grow.</p>
+                                <Link to="/mobile-detail" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -146,6 +161,9 @@ const Solutions = () => {
                                     </Link>
                                 </h1>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <Link to="#" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -168,6 +186,9 @@ const Solutions = () => {
                                     </Link>
                                 </h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <Link to="#" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -190,6 +211,9 @@ const Solutions = () => {
                                     </Link>
                                 </h1>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <Link to="#" className="view-details-btn" style={{color:"red"}} >
+                            Read More
+                            </Link>
                             </div>
                         </div>
                     </div>
