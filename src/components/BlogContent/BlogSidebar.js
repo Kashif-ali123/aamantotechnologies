@@ -25,10 +25,10 @@ const BlogSidebar = () => {
                         <span className="fullimage cover bg1" role="img"></span>
                     </Link>
                     <div className="info">
-                        <span>June 10, 2020</span>
+                        
                         <h4 className="title usmall">
                             <Link to="/blog-details">
-                                The Data Surrounding Higher Education
+                            AI & ML Development
                             </Link>
                         </h4>
                     </div>
@@ -41,10 +41,10 @@ const BlogSidebar = () => {
                         <span className="fullimage cover bg2" role="img"></span>
                     </Link>
                     <div className="info">
-                        <span>June 21, 2020</span>
+                        
                         <h4 className="title usmall">
                             <Link to="/blog-details">
-                                Conversion Rate the Sales Funnel Optimization
+                            Data Analytics
                             </Link>
                         </h4>
                     </div>
@@ -57,18 +57,47 @@ const BlogSidebar = () => {
                         <span className="fullimage cover bg3" role="img"></span>
                     </Link>
                     <div className="info">
-                        <span>June 30, 2020</span>
+                       
                         <h4 className="title usmall">
                             <Link to="/blog-details">
-                                Business Data is changing the world’s Energy
+                            Data Science
                             </Link>
                         </h4>
                     </div>
+                    <div className="clear"></div>
+                </article>
+                    <article className="item">
+                    <Link to="/blog-details" className="thumb">
+                        <span className="fullimage cover bg2" role="img"></span>
+                    </Link>
+                    <div className="info">
+                       
+                       <h4 className="title usmall">
+                           <Link to="/blog-details">
+                           Artificial Intelligence
+                           </Link>
+                       </h4>
+                   </div>
+                   <div className="clear"></div>
+                </article>
+                   <article className="item">
+                    <Link to="/blog-details" className="thumb">
+                        <span className="fullimage cover bg2" role="img"></span>
+                    </Link>
+                  
+                   <div className="info">
+                       
+                       <h4 className="title usmall">
+                           <Link to="/blog-details">
+                           Data Visualization
+                           </Link>
+                       </h4>
+                   </div>
 
                     <div className="clear"></div>
                 </article>
             </div>
-
+{/* 
             <div className="widget widget_categories">
                 <h3 className="widget-title">Categories</h3>
 
@@ -99,12 +128,12 @@ const BlogSidebar = () => {
                         </Link>
                     </li>
                 </ul>
-            </div>
+            </div> */}
 
-            <div className="widget widget_tag_cloud">
-                <h3 className="widget-title">Popular Tags</h3>
+            {/* <div className="widget widget_tag_cloud">
+                <h3 className="widget-title">Popular Tags</h3> */}
 
-                <div className="tagcloud">
+                {/* <div className="tagcloud">
                     <Link to="/blog">
                         Business <span className="tag-link-count">(3)</span>
                     </Link>
@@ -129,8 +158,8 @@ const BlogSidebar = () => {
                     <Link to="/blog">
                         Tips <span className="tag-link-count">(2)</span>
                     </Link>
-                </div>
-            </div>
+                </div> */}
+            {/* </div> */}
         </div>
     )
 }
