@@ -10,11 +10,11 @@ const ContactForm = () => {
                 <div className="section-title">
                 <ReactWOW delay='.5s' animation='fadeInRight'>
                     <span className="sub-title" style={{marginTop:"40px"}}>
-                        <img src={starIcon} alt="contact"  /> 
+                        <img src={starIcon} alt="contact" style={{width:"50px"}} /> 
                     Need A Consultation?
                     </span>
                     {/* <h2>Ready to Get Started?</h2> */}
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <p style={{textAlign:"left"}}>Get in touch and let us know how can we assist you.</p>
                   </ReactWOW>
                 </div>
 
