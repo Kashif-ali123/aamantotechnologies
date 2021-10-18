@@ -1,5 +1,5 @@
 import React from 'react'
-import user1 from '../../assets/images/user1.jpg'
+import user1 from '../../assets/images/moe.png'
 import user2 from '../../assets/images/user2.jpg'
 import user3 from '../../assets/images/user3.jpg'
 import shape9 from '../../assets/images/shape/vector-shape9.png'
@@ -42,8 +42,8 @@ const Testimonials = () => {
         <section className="testimonials-area bg-23173a pt-100 pb-70">
             <div className="container">
                 <div className="section-title">
-                    <h2>What Our Clients are Saying?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Happy Customers</h2>
+                    <p>The remarkable results achieved by organizations that trust Aamanto Technologies.</p>
                 </div>
 
                 {display ? <OwlCarousel 
@@ -56,8 +56,8 @@ const Testimonials = () => {
 
                         <div className="client-info">
                             <div className="title">
-                                <h3>Alex Maxwell</h3>
-                                <span>CEO at EnvyTheme</span>
+                                <h3>Moe Mahmood </h3>
+                                <span>CEO at Aamanto Technologies</span>
                             </div>
                         </div>
                     </div>
