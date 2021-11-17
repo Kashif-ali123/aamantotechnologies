@@ -1,9 +1,34 @@
 import React from 'react'
 import ReactWOW from 'react-wow'
-import { Link } from 'gatsby'
+import {bannerData} from '../data'
 // import bannerImg from '../../assets/images/banner-img1.png'
 
 const Banner = () => {
+    return(
+        <>
+         
+          <div >
+          {bannerData.map((data, key) => {
+            return (
+              <div key={key}>
+                <Banners
+                  key={key}
+                  company={data.company}
+                  desc={data.desc}
+                  btn={data.btn}
+              
+               
+                  
+                />
+              </div>
+            );
+          })}
+        </div>
+      </>
+      );
+      };
+      const Banners = ({ company, desc,btn}) => {
+        if (!company) return <div />;      
     return (
         <div className="it-services-banner" >
             <div className="container" >
@@ -15,7 +40,7 @@ const Banner = () => {
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <p style={{fontSize:"28px", color: "#212529"}}>Committed to <b className="heading-highlight" style={{backgroundColor:"#ff5d22"}}>INNOVATION</b></p>
+                                <p style={{fontSize:"28px", color: "#212529"}}>{desc} <b className="heading-highlight" style={{backgroundColor:"#ff5d22"}}>{btn}</b></p>
                             </ReactWOW>
 
                             {/* <ReactWOW delay='.1s' animation='fadeInRight'>

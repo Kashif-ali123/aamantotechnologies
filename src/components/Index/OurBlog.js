@@ -1,21 +1,52 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
-import blog1 from '../../assets/images/blog/blog-img1.jpg'
-import blog5 from '../../assets/images/blog/blog-img5.jpg'
-import blog6 from '../../assets/images/blog/blog-img6.jpg'
-import user1 from '../../assets/images/user4.png'
-import user2 from '../../assets/images/user5.png'
-import user3 from '../../assets/images/user6.png'
+import {bannerData} from '../data'
+// import blog1 from '../../assets/images/blog/blog-img1.jpg'
+// import blog5 from '../../assets/images/blog/blog-img5.jpg'
+// import blog6 from '../../assets/images/blog/blog-img6.jpg'
+
 
 const OurBlog = () => {
+    return(
+        <>
+         
+          <div >
+          {bannerData.map((data, key) => {
+            return (
+              <div key={key}>
+                <Blog
+                  key={key}
+                  blog={data.blog}
+               
+                 title={data.title}
+                
+                 title1={data.title1}
+                 title2={data.title2}
+                 blog_img={data.blog_img}
+                 blog_img1={data.blog_img1}
+                 blog_img2={data.blog_img2}
+                
+               
+
+                 />
+                 </div>
+               );
+             })}
+           </div>
+         </>
+         );
+         };
+         const Blog = ({ blog,title2, title, title1, blog_img,blog_img1,blog_img2 }) => {
+            if (!blog) return <div />;   
+            
     return (
         <section className="blog-area pt-100 pb-70 bg-fffbf5">
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
                         <img src={starIcon} alt="blog" /> 
-                        Recent Blog
+                       {blog}
                     </span>
                    
                    
@@ -26,7 +57,7 @@ const OurBlog = () => {
                         <div className="single-blog-post">
                             <div className="post-image">
                                 <Link to="#">
-                                    <img src={blog1} alt="blog" style={{height:"270px"}} />
+                                    <img src={blog_img} alt="blog" style={{height:"270px"}} />
                                 </Link>
                             </div>
 
@@ -44,7 +75,7 @@ const OurBlog = () => {
                                 </ul> */}
                                 <h3>
                                     <Link to="#">
-                                       How Companies Use Machine Learning
+                                       {title}
                                     </Link>
                                 </h3>
                             </div>
@@ -55,7 +86,7 @@ const OurBlog = () => {
                         <div className="single-blog-post">
                             <div className="post-image">
                                 <Link to="#">
-                                    <img src={blog5} alt="blog" style={{height:"270px"}} />
+                                    <img src={blog_img1} alt="blog" style={{height:"270px"}} />
                                 </Link>
                             </div>
 
@@ -73,7 +104,7 @@ const OurBlog = () => {
                                 </ul> */}
                                 <h3>
                                     <Link to="#">
-                                    How Companies Use Machine Learning
+                                  {title1}
                                     </Link>
                                 </h3>
                             </div>
@@ -84,7 +115,7 @@ const OurBlog = () => {
                         <div className="single-blog-post">
                             <div className="post-image">
                                 <Link to="#">
-                                    <img src={blog6} alt="blog" style={{height:"270px"}} />
+                                    <img src={blog_img2} alt="blog" style={{height:"270px"}} />
                                 </Link>
                             </div>
 
@@ -102,7 +133,7 @@ const OurBlog = () => {
                                 </ul> */}
                                 <h3>
                                     <Link to="#">
-                                    How Companies Use Machine Learning
+                                  {title2}
                                     </Link>
                                 </h3>
                             </div>
