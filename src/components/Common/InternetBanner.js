@@ -6,7 +6,7 @@ import bannerImg3 from '../../assets/images/services/iot.png'
 
  const InternetBanner = () => {
     return (
-        <div className="digital-agency-banner">
+        <div className="digital-agency-banner6">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
@@ -17,7 +17,7 @@ import bannerImg3 from '../../assets/images/services/iot.png'
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p>With our IoT expertise we provide cutting-edge engineering and enterprise-wide IoT solutions tailored to the needs of our clients.</p>
+                            <p>With our IoT expertise we provide cutting-edge engineering and enterprise-wide IoT solutions tailored to the needs of our clients.Aamanto offers a range of services and innovative consumer electronics startups to develop IoT solutions.</p>
                            
                         </ReactWOW>
 
@@ -25,7 +25,7 @@ import bannerImg3 from '../../assets/images/services/iot.png'
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    Get a Code
+                                    Get a Quote
                                     <span></span>
                                 </Link>
                             </div>

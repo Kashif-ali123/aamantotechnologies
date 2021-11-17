@@ -18,7 +18,7 @@ const ArtificalBanner = () => {
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p>With our AI services, we have helped numerous businesses become more operationally agile and efficient.</p>
+                            <p>With our AI services, we have helped numerous businesses become more operationally agile and efficient.Aamanto also develops and builds industry-leading digital transformation technologies. We use block chain and AI to turn sophisticated products into quick fixes.</p>
                            
                         </ReactWOW>
 
@@ -26,7 +26,7 @@ const ArtificalBanner = () => {
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                   Get a Code
+                                    Get a Quote
                                     <span></span>
                                 </Link>
                             </div>

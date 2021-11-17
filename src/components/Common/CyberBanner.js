@@ -8,7 +8,7 @@ import bannerImg3 from '../../assets/images/services/cyber-security.png'
 
  const CyberBanner = () => {
     return (
-        <div className="digital-agency-banner">
+        <div className="digital-agency-banner5">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
@@ -19,7 +19,7 @@ import bannerImg3 from '../../assets/images/services/cyber-security.png'
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p>People and organizations can be protected using technology and skill.</p>
+                            <p>People and organizations can be protected using technology and skill.Starting from a set of identification data items, such as brands, names, IPs, DNS domains, etc., data is obtained, correlated and transformed into information, which is then evaluated and transformed into intelligence.</p>
                            
                             
                         </ReactWOW>
@@ -28,7 +28,7 @@ import bannerImg3 from '../../assets/images/services/cyber-security.png'
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    Get a Code
+                                    Get a Quote
                                     <span></span>
                                 </Link>
                             </div>
@@ -38,8 +38,8 @@ import bannerImg3 from '../../assets/images/services/cyber-security.png'
 
                 <div className="col-lg-6 col-md-12">
                     <ReactWOW delay='.1s' animation='fadeInUp'>
-                        <div className="banner-wrapper-image">
-                            <img src={bannerImg3} alt="banner" />
+                        <div className="banner-wrapper-image" style={{height:"400px"}}>
+                            <img src={bannerImg3} alt="banner" style={{height:"450px"}}/>
                         </div>
                     </ReactWOW>
                 </div>

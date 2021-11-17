@@ -1,31 +1,27 @@
 import React from 'react';
 import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
-import bannerImg from '../../assets/images/services/community-portal-img.jpg'
-import shape7 from '../../assets/images/shape/vector-shape7.png'
-import shape8 from '../../assets/images/shape/vector-shape8.png'
+import bannerImg from '../../assets/images/services/ecommerce.png'
 
 
-
-
-const WebPortalsBanner = () => {
- 
+const EcommerceBanner = () => {
+    
 
     return (
        
          
-                <div className="main-banner-item item-bg2" >
-                
+                <div className="main-banner-item item-bg5" >
+               
         <div className="container">
         <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff"}}>WEB PORTAL</h1>
+                            <h1 style={{fontSize:"30px", color:"#fff"}}>Ecommerce</h1>
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p style={{textAlign:"justify",  color:"#fff"}}>Aamanto builds adaptive solutions to power end customers regardless of the technology at their disposal as we provide web portal services. In order to ensure that our portals are stable and secure across devices and platforms, we focus on system performance. We help technology-driven enterprises improve their performance by providing portal solutions with well-thought-out UX and enticing functionalities.</p>
+                            <p style={{textAlign:"justify",  color:"#fff"}}>Aamanto help retail companies, distributors, manufacturers, and wholesalers increase customer satisfaction, increase revenues, and grow their audiences by combining our expertise in information technology and ecommerce development. We strive to provide ecommerce solutions that are both technically sound and visually appealing, allowing your business to stand out in the ecommerce industry.</p>
                            
                         </ReactWOW>
 
@@ -33,14 +29,14 @@ const WebPortalsBanner = () => {
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    Get a Quote<span></span>
+                                    Get a Quote <span></span>
                                 </Link>
                             </div>
                         </ReactWOW>
                     </div>
                 </div>
 
-                <div className="col-lg-6 col-md-12" style={{marginTop:"200px"}}  >
+                <div className="col-lg-6 col-md-12" style={{marginTop:"150px"}}>
                     <ReactWOW delay='.1s' animation='fadeInUp'>
                         <div className="main-banner-layer" >
                             <img src={bannerImg} alt="banner"  />
@@ -49,19 +45,10 @@ const WebPortalsBanner = () => {
                 </div>
             </div>
         </div>
-       
-    
-           
-            <div className="vector-shape7">
-                <img src={shape7} alt="features" />
-            </div>
-            <div className="vector-shape8">
-                <img src={shape8} alt="features" />
-            </div>
    </div>
 
         
     )
 }
 
-export default WebPortalsBanner;
+export default EcommerceBanner;

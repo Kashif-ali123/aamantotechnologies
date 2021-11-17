@@ -11,14 +11,14 @@ const CrmBanner = () => {
     return (
        
          
-                <div className="main-banner-item item-bg1" style={{height:"650px"}}>
-                <div className="page-title-are">
+                <div className="main-banner-item item-bg1"  style={{height:"650px"}}>
+                
         <div className="container">
         <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
-                    <div className="main-banner-content">
+                    <div className="main-banner-content" style={{marginTop:"90px"}}>
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff"}}>CRM</h1>
+                            <h1 style={{fontSize:"30px", color:"#fff", marginTop:"10px"}}>CRM</h1>
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
@@ -30,14 +30,14 @@ const CrmBanner = () => {
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    Get a Code <span></span>
+                                    Get a Quote <span></span>
                                 </Link>
                             </div>
                         </ReactWOW>
                     </div>
                 </div>
 
-                <div className="col-lg-6 col-md-12" >
+                <div className="col-lg-6 col-md-12" style={{marginTop:"150px"}} >
                     <ReactWOW delay='.1s' animation='fadeInUp'>
                         <div className="main-banner-layer" >
                             <img src={bannerImg} alt="banner"  />
@@ -47,7 +47,7 @@ const CrmBanner = () => {
             </div>
         </div>
    </div>
-</div>
+
         
     )
 }

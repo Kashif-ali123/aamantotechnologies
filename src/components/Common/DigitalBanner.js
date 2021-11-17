@@ -2,13 +2,14 @@ import React from 'react'
 import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
 import bannerImg3 from '../../assets/images/services/digital-transformation.png'
+import shape3 from '../../assets/images/shape/vector-shape3.png'
 // import shape1 from '../../assets/images/shape/shape1.svg'
 // import shape2 from '../../assets/images/shape/shape2.png'
 // import shape3 from '../../assets/images/shape/shape3.png'
 
  const DigitalBanner = () => {
     return (
-        <div className="digital-agency-banner">
+        <div className="digital-agency-banner3">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
@@ -27,7 +28,7 @@ import bannerImg3 from '../../assets/images/services/digital-transformation.png'
                                 <div className="btn-box">
                                     <Link to="/contact" className="default-btn">
                                         <i className="flaticon-right"></i> 
-                                        Get a Code
+                                        Get a Quote
                                         <span></span>
                                     </Link>
                                 </div>
@@ -38,11 +39,14 @@ import bannerImg3 from '../../assets/images/services/digital-transformation.png'
                     <div className="col-lg-6 col-md-12">
                         <ReactWOW delay='.1s' animation='fadeInUp'>
                             <div className="banner-wrapper-image">
-                                <img src={bannerImg3} alt="banner" />
+                                <img src={bannerImg3} alt="banner"  style={{height:"450px"}}/>
                             </div>
                         </ReactWOW>
                     </div>
                 </div>
+            </div>
+            <div className="circle-shape1" >
+                <img src={shape3} alt="banner" />
             </div>
         </div>
     )

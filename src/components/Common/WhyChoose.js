@@ -1,33 +1,26 @@
-import React from 'react';
+import React from 'react'
 import ReactWOW from 'react-wow'
+
+
 import {Link} from 'gatsby'
-import bannerImg from '../../assets/images/services/community-portal-img.jpg'
+import bannerImg from '../../assets/images/services/aamant.jpg'
 import shape7 from '../../assets/images/shape/vector-shape7.png'
 import shape8 from '../../assets/images/shape/vector-shape8.png'
 
-
-
-
-const WebPortalsBanner = () => {
- 
-
+const WhyChoose = ({pageTitle}) => {
     return (
-       
-         
-                <div className="main-banner-item item-bg2" >
+        <div className="main-banner-item item-bg2" >
                 
         <div className="container">
         <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
-                        <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff"}}>WEB PORTAL</h1>
-                        </ReactWOW>
-
-                        <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p style={{textAlign:"justify",  color:"#fff"}}>Aamanto builds adaptive solutions to power end customers regardless of the technology at their disposal as we provide web portal services. In order to ensure that our portals are stable and secure across devices and platforms, we focus on system performance. We help technology-driven enterprises improve their performance by providing portal solutions with well-thought-out UX and enticing functionalities.</p>
-                           
-                        </ReactWOW>
+                    <ReactWOW delay='.1s' animation='bounceInUp'>
+                    <h2 style={{color:"#fff", marginBottom:"20px"}}>{pageTitle}</h2>
+                   </ReactWOW>
+                   <ReactWOW delay='.1s' animation='bounceInDown'>
+                   <p style={{ color:"#fff", marginBottom:"50px"}}>Aamanto Technologies Inc. is the most trusted name in IT consulting and software development services. We deliver years of domain expertise and unrivalled value to our clients. Our solutions power the operations of clients across diverse industries such as finance, government, healthcare, education, transportation, retailing, telecommunication and energy. We are a one-stop solution for all of your IT needs, including mobile app development, responsive web application development, cloud adoption, cyber security, digital transformation and data analytics.</p>
+                </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInRight'>
                             <div className="btn-box">
@@ -64,4 +57,4 @@ const WebPortalsBanner = () => {
     )
 }
 
-export default WebPortalsBanner;
+export default WhyChoose;

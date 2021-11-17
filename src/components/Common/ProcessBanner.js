@@ -4,14 +4,17 @@ import shape1 from '../../assets/images/shape/shape1.svg'
 import shape2 from '../../assets/images/shape/shape2.png'
 import shape3 from '../../assets/images/shape/shape3.png'
 
-const Page2Banner = ({pageTitle}) => {
+const ProcessBanner = ({pageTitle}) => {
     return (
-        <div className="vision-title">
+        <div className="process-title-area">
             <div className="container">
                 <div className="page-title-content">
-                <ReactWOW delay='.1s' animation='bounceInUp'>
-                    <h2 style={{textAlign:"center", color:"#fff"}}>{pageTitle}</h2>
+                     <ReactWOW delay='.1s' animation='bounceInUp'>
+                    <h2 style={{textAlign:"center", color:"#fff", marginBottom:"20px"}}>{pageTitle}</h2>
                    </ReactWOW>
+                   <ReactWOW delay='.1s' animation='bounceInDown'>
+                   <p style={{textAlign:"center", color:"#fff", marginBottom:"100px"}}>We have a well-defined process. We utilize the following<br></br> 4-step approach for development and service provisioning:</p>
+                </ReactWOW>
                 </div>
             </div>
 
@@ -28,4 +31,4 @@ const Page2Banner = ({pageTitle}) => {
     )
 }
 
-export default Page2Banner;
+export default ProcessBanner;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {telData} from '../data2'
+import {teleData} from '../data1'
 
 
 const TelecomBanner = () => {
@@ -7,14 +7,14 @@ const TelecomBanner = () => {
         <>
          
           <div >
-          {telData.map((data, key) => {
+          {teleData.map((data, key) => {
             return (
               <div key={key}>
-                <BlogBanner
+                <Tele
                   key={key}
-                  titl={data.titl}
-                  descr={data.descr}
-                  paragr={data.paragr}
+                 title={data.title}
+                  desc={data.desc}
+                 para={data.para}
               
                
                   
@@ -26,21 +26,21 @@ const TelecomBanner = () => {
       </>
       );
       };
-      const BlogBanner = ({ titl, descr,paragr}) => {
-        if (!titl) return <div />;    
+      const Tele = ({title, desc,para}) => {
+        if (!title) return <div />;      
 
     return (
         <React.Fragment>
 
             
-                <div className="main-banner-item item-bg-blog">
+                <div className="main-banner-item item-bg-blog-detail">
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="banner-item-content">
-                                    <span className="sub-title">{titl}</span>
-                                    <h1>{descr}</h1>
-                                    <p>{paragr}</p>
+                                    <span className="sub-title">{title}</span>
+                                    <h1>{desc}</h1>
+                                    <p>{para}</p>
 
                                     
                                 </div>

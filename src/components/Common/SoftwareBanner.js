@@ -1,27 +1,27 @@
 import React from 'react';
 import ReactWOW from 'react-wow'
 import {Link} from 'gatsby'
-import bannerImg from '../../assets/images/services/mobile-App1.png'
+import bannerImg from '../../assets/images/services/soft.png'
 
 
 
-const MobileAppBanner = () => {
+const SoftwareBanner = () => {
    
     return (
        
          
-                <div className="main-banner-item item-bg3" style={{height:"670px"}} >
-                
+                <div className="main-banner-item item-bg4" style={{height:"650px"}} >
+               
         <div className="container">
         <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="main-banner-content">
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <h1 style={{fontSize:"30px", color:"#fff" }}>MOBILE APPS</h1>
+                            <h1 style={{fontSize:"30px", color:"#fff"}}>SOFTWARE DEVELOPMENT </h1>
                         </ReactWOW>
 
                         <ReactWOW delay='.1s' animation='fadeInLeft'>
-                            <p style={{textAlign:"justify",  color:"#fff"}}>We will assist you from the first concept design of your app through its launch on selected platforms, since we've produced over 1000+ apps. We have the appropriate combination of amazing technology, people, and experience to create unique apps that work wonders for your organization. Get solutions that help you stand out from the crowd, from native to cross-platform apps. </p>
+                            <p style={{textAlign:"justify",  color:"#fff"}}>Aamanto have a track record of developing dependable and scalable corporate solutions that provide new value to your company. Our skilled engineers use a combination of cutting-edge technology to provide future-proof services that help you achieve your business objectives. Receive all kinds of unique solutions that drive business efficiency, whether it's ERP, HCM, or CRM.</p>
                            
                         </ReactWOW>
 
@@ -36,10 +36,10 @@ const MobileAppBanner = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-6 col-md-12"style={{marginTop:"100px"}} >
+                <div className="col-lg-6 col-md-12" style={{marginTop:"150px"}} >
                     <ReactWOW delay='.1s' animation='fadeInUp'>
                         <div className="main-banner-layer" >
-                            <img src={bannerImg} alt="banner"   />
+                            <img src={bannerImg} alt="banner"  style={{height:"400px"}} />
                         </div>
                     </ReactWOW>
                 </div>
@@ -51,4 +51,4 @@ const MobileAppBanner = () => {
     )
 }
 
-export default MobileAppBanner;
+export default SoftwareBanner;

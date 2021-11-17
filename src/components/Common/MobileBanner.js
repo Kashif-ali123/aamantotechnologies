@@ -8,7 +8,7 @@ import bannerImg3 from '../../assets/images/services/mobile-app.png'
 
  const MobileBanner = () => {
     return (
-        <div className="digital-agency-banner">
+        <div className="digital-agency-banner4">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
@@ -28,7 +28,7 @@ import bannerImg3 from '../../assets/images/services/mobile-app.png'
                             <div className="btn-box">
                                 <Link to="/contact" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    Get a Code
+                                    Get a Quote
                                     <span></span>
                                 </Link>
                             </div>
