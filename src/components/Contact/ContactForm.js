@@ -1,9 +1,38 @@
 import React from 'react'
 import ReactWOW from 'react-wow'
+import {bannerData} from '../data'
 import starIcon from '../../assets/images/star-icon.png'
-import contact from '../../assets/images/contact.png'
+// import contact from '../../assets/images/contact.png'
 
 const ContactForm = () => {
+    return(
+        <>
+         
+          <div >
+          {bannerData.map((data, key) => {
+            return (
+              <div key={key}>
+                <Contact
+                  key={key}
+                  contact={data.contact}
+               
+                 paragraph={data.paragraph}
+               
+                 contact_img={data.contact_img}
+              
+                
+               
+
+                 />
+                 </div>
+               );
+             })}
+           </div>
+         </>
+         );
+         };
+         const Contact = ({ contact, paragraph,  contact_img }) => {
+            if (!contact) return <div />;   
     return (
         <section className="contact-area pb-100">
             <div className="container">
@@ -11,10 +40,10 @@ const ContactForm = () => {
                 <ReactWOW delay='.5s' animation='fadeInRight'>
                     <span className="sub-title" style={{marginTop:"40px"}}>
                         <img src={starIcon} alt="contact" style={{width:"50px"}} /> 
-                    Need A Consultation?
+                    {contact}
                     </span>
                     {/* <h2>Ready to Get Started?</h2> */}
-                    <p style={{textAlign:"left"}}>Get in touch and let us know how can we assist you.</p>
+                    <p>{paragraph}</p>
                   </ReactWOW>
                 </div>
 
@@ -70,7 +99,7 @@ const ContactForm = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="contact-image">
                         <ReactWOW delay='.5s' animation='fadeInRight'>
-                            <img src={contact} alt="contact" />
+                            <img src={ contact_img} alt="contact" />
                             </ReactWOW>
                         </div>
                     </div>

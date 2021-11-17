@@ -5,9 +5,7 @@ const ContactInfo = () => {
         <>
        
         <div className="contact-info-area pt-100 pb-70">
-        <ReactWOW delay='.5s' animation='fadeInRight'>
-        <h1 style={{textAlign:"center", marginTop:"60px", marginBottom:"60px", fontSize:"40px"}}>Contact Us</h1>
-        </ReactWOW>
+      
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
@@ -57,8 +55,8 @@ const ContactInfo = () => {
                             </ReactWOW>
                             <ReactWOW delay='.5s' animation='fadeInRight'>
                             <h3>Hours of Working Days</h3>
-                            <p>Monday - Friday: 10:00 - 8:00</p>
-                            <p>Sunday & Saturday: Close</p>
+                            <p>Monday - Saturday: 10:00 - 8:00</p>
+                            <p>Sunday: Close</p>
                             </ReactWOW>
                         </div>
                     </div>
