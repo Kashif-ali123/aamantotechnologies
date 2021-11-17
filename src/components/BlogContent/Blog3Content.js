@@ -1,18 +1,59 @@
 import React from 'react'
-import {Link} from 'gatsby'
+// import {Link} from 'gatsby'
 import BlogSidebar from './BlogSidebar'
 import img6 from '../../assets/images/blog/ml.jpg'
 import img4 from '../../assets/images/blog/al.jpg'
 import img5 from '../../assets/images/blog/blog-img4.jpg'
 import img7 from '../../assets/images/blog/blog-img7.jpg'
-import img11 from '../../assets/images/blog/blog-img11.jpg'
-import img12 from '../../assets/images/blog/blog-img12.jpg'
-import user1 from '../../assets/images/user1.jpg'
-import user2 from '../../assets/images/user2.jpg'
-import user3 from '../../assets/images/user3.jpg'
-import user4 from '../../assets/images/user4.jpg'
+import {teleData} from '../data1'
+// import img11 from '../../assets/images/blog/blog-img11.jpg'
+// import img12 from '../../assets/images/blog/blog-img12.jpg'
+// import user1 from '../../assets/images/user1.jpg'
+// import user2 from '../../assets/images/user2.jpg'
+// import user3 from '../../assets/images/user3.jpg'
+// import user4 from '../../assets/images/user4.jpg'
 
 const Blog3Content = () => {
+    return(
+        <>
+         
+          <div >
+          {teleData.map((data, key) => {
+            return (
+              <div key={key}>
+                <Content
+                  key={key}
+                  tit4={data.tit4}
+                  paragrap={data.paragrap}
+                  btn={data.btn}
+                  paragrap1={data.paragrap1}
+                  paragrap2={data.paragrap2}
+                  tit5={data.tit5}
+                  list={data.list}
+                  list1={data.list1}
+                  list2={data.list2}
+                  list3={data.list3}
+                  tit6={data.tit6}
+                  unlist={data.unlist}
+                  unlist1={data.unlist1}
+                  unlist2={data.unlist2}
+                  unlist3={data.unlist3}
+                  unlist4={data.unlist4}
+                  leave={data.leave}
+                  paragrap3={data.paragrap3}
+                  paragrap4={data.paragrap4}
+
+                  
+                />
+              </div>
+            );
+          })}
+        </div>
+      </>
+      );
+      };
+      const Content = ({ tit4,paragrap,btn,paragrap1,paragrap2,paragrap3,paragrap4,leave,tit5,list,list1,list2,list3,tit6,unlist,unlist1,unlist2,unlist3,unlist4}) => {
+        if (!tit4) return <div />;    
     return (
         <section className="blog-details-area ptb-100">
             <div className="container">
@@ -50,20 +91,18 @@ const Blog3Content = () => {
                                     </ul>
                                 </div> */}
 
-                                <h3>Artificial Intelligence (AI)</h3>
+                                <h3>{tit4}</h3>
 
-                                <p>At its simplest form, artificial intelligence is a field, which combines computer science and robust datasets, to enable problem-solving. It also encompasses sub-fields of machine learning and deep learning, which are frequently mentioned in conjunction with artificial intelligence.</p>
+                                <p>{paragrap}</p>
 
-                                <p>These disciplines are comprised of AI algorithms which seek to create expert systems which make predictions or classifications based on input data.</p>
+                                <p>{paragrap1}</p>
 
-                                <blockquote>
+                                {/* <blockquote>
                                     <h3>Artificial Intelligence (AI)</h3>
                                     <cite>Tom Cruise</cite>
-                                </blockquote>
+                                </blockquote> */}
 
-                                <p>Artificial intelligence (AI) is an ever-growing part of our everyday lives. AI makes it possible for machines to perform human-like tasks by identifying patterns in the immense amount of data available in our modern world. By using AI, computers can be trained to accurately perform complex tasks such as speech recognition, natural language processing, image recognition, real-time recommendations, spam and fraud detection, robotics, and much more.</p>
-                                <p>Given the wide range of applications, you can be sure that there are ways that AI can work for you to modernize and enhance your business, reduce overhead costs, and more. At Aamanto, our qualified team of data scientists and machine learning engineers are trained to convert various kinds of business problems into actionable solutions which take advantage of the extensive capabilities of machine learning.</p>
-                                <p>Whether it be using our pre-trained machine learning models or developing custom solutions for your own use cases, we at Aamanto allow our clients to unlock the true power of power of AI without needing to write any complex code themselves.</p>
+                                <p>{paragrap2}</p>
                                 <ul className="wp-block-gallery columns-3">
                                     <li className="blocks-gallery-item">
                                         <figure>
@@ -84,45 +123,45 @@ const Blog3Content = () => {
                                     </li>
                                 </ul>
 
-                                <h3>Four major elements that we offer:</h3>
+                                <h3>{tit5}</h3>
 
                                 <ul className="features-list">
-                                    <li><i className='bx bx-badge-check'></i> Scientific skills for getting a better result</li>
-                                    <li><i className='bx bx-badge-check'></i> Communication skills to getting in touch</li>
-                                    <li><i className='bx bx-badge-check'></i> A career overview opportunity available</li>
-                                    <li><i className='bx bx-badge-check'></i> A good work environment for work</li>
+                                    <li><i className='bx bx-badge-check'></i> {list}</li>
+                                    <li><i className='bx bx-badge-check'></i> {list1}</li>
+                                    <li><i className='bx bx-badge-check'></i> {list2}</li>
+                                    <li><i className='bx bx-badge-check'></i> {list3}</li>
                                 </ul>
 
-                                <h3>Advantages of Incorporating AI Solutions into Your Business</h3>
+                                <h3>{tit6}</h3>
                                <ul>
-                                   <li><p>Zero risks and zero human error. Plus, it’s quick and simple to set up.</p></li>
-                                   <li><p>Low-cost alternative. Outsourcing AI can prove to be cost effective compared to developing in-house software using expensive hardware.</p></li>
-                                   <li><p>Faster decision making and round-the-clock availability of qualified professionals without the need to hire a team of experts.</p></li>
-                                   <li><p>It’s flexible. Our AIaaS provides customization options, so you can adapt our AI tools to your business needs.</p></li>
-                                   <li><p>It’s transparent. You only pay for what you use.</p></li>
-                                   <li><p>It’s scalable. You have the ability to scale up or down based on business growth or needs.</p></li>
+                                   <li><p>{unlist}</p></li>
+                                   <li><p>{unlist1}</p></li>
+                                   <li><p>{unlist2}</p></li>
+                                   <li><p>{unlist3}</p></li>
+                                <li><p>{unlist4}</p></li>
+                                 
                                </ul>
 
-                                {/* <h3>The rise of marketing and why you need it</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> */}
-                            </div>
-
-                            <div className="article-footer">
                               
                             </div>
 
                             
 
-                              
+                            
+                          
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-12">
+                        <BlogSidebar />
+                    </div>
 
-                            <div className="comments-area">       
+                    <div className="comments-area" style={{backgroundColor:"blue"}}>       
                                 <div className="comment-respond">
-                                    <h3 className="comment-reply-title">Leave a Reply</h3>
+                                    <h3 className="comment-reply-title" style={{color:"#fff"}}>{leave}</h3>
 
                                     <form className="comment-form">
                                         <p className="comment-notes">
-                                            <span id="email-notes">Your email address will not be published.</span>
-                                            Required fields are marked 
+                                            <span id="email-notes" style={{color:"#fff"}}>{paragrap3}</span>
                                             <span className="required">*</span>
                                         </p>
                                         <p className="comment-form-author">
@@ -143,23 +182,19 @@ const Blog3Content = () => {
                                         </p>
                                         <p className="comment-form-cookies-consent">
                                             <input type="checkbox" value="yes" name="comment-cookies-consent" id="comment-cookies-consent" />
-                                            <label>Save my name, email, and website in this browser for the next time I comment.</label>
+                                            <label style={{color:"#fff"}}>{paragrap4}</label>
                                         </p>
                                         <p className="form-submit">
-                                            <input type="submit" name="submit" id="submit" className="submit" value="Post A Comment" />
+                                            <input type="submit" name="submit" id="submit" className="submit" value={btn} style={{marginBottom:"50px"}}/>
                                         </p>
                                     </form>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-12">
-                        <BlogSidebar />
-                    </div>
+                   
+                    
                 </div>
             </div>
-           
+        
           
             
         </section>
