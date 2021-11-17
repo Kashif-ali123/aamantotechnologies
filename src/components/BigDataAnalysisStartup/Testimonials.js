@@ -106,7 +106,7 @@ const Testimonials = () => {
                     <div className="single-testimonials-box">
                         <img src={user5} className="shadow-sm" alt="testimonials" />
                         <h1 style={{marginTop:"100px"}}>Debugging</h1>
-                        <p>We are pleased with our high-quality service and will not compromise it at any cost. We've established a separate team of skilled workers to oversee the tasks we do. The website will be sent to the customer once it has been approved. We also provide our clients with post-delivery support to guarantee that they fully comprehend the functionality.</p>
+                        <p>We are pleased with our high-quality service and will not compromise it at any cost. We've established a separate team of skilled workers to oversee the tasks we do. The website will be sent to the customer once it has been approved. We also provide our clients with post-delivery support to guarantee  fully comprehend the functionality.</p>
 
                         {/* <div className="client-info">
                             <div className="title">
