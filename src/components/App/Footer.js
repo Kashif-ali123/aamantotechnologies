@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import logo1 from "../../assets/images/logo1.png"
+import logo2 from "../../assets/images/logo1.png"
 import footerMap from "../../assets/images/footer-map.png"
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
                             <a href="/" className="logo">
-                                <img src={logo1} alt="logo" style={{width:"300px"}} />
+                                <img src={logo2} alt="logo" style={{width:"300px"}} />
                             </a>
                             <p>We design unique software solutions to address the demands of specific businesses; we believe in innovation, and we are here to help.</p>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                     <li>
-                                    <Link to="/about-us">
+                                    <Link to="/about">
                                         About
                                     </Link>
                                 </li>
@@ -88,7 +88,7 @@ const Footer = () => {
                                     </Link>
                                 </li> */}
                                 <li>
-                                    <Link to="/services">
+                                    <Link to="/software-development">
                                         Our Services
                                     </Link>
                                 </li>
@@ -119,8 +119,8 @@ const Footer = () => {
                                 <li>
                                   
                                     <i className='bx bx-map'></i> 
-                                    10 Streamside Street
-                                     Kleinburg, Ontario, <br /> Canada. L4H 4V3
+                                   
+                                     Kleinburg, Ontario, Canada. 
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
@@ -128,7 +128,7 @@ const Footer = () => {
                                 </li>
                                 <h5>Research & Development Office:</h5>
 
-                                779 Campolina Way, Stittsville, Ontario, <br/> Canada. K2S 0X7
+                                Stittsville, Ontario, Canada. 
                                 <li>
                                     {/* <i className='bx bx-envelope'></i>
                                     <a href="mailto:hello@rewy.com">hello@rewy.com</a> */}

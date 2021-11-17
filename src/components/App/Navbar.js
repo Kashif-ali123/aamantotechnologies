@@ -2,7 +2,7 @@ import React from 'react';
 import { useRecoilState } from 'recoil'
 import { collapsedState } from '../../utils/recoil-atoms'
 import {Link} from 'gatsby'
-import logo1 from "../../assets/images/logo1.png"
+import logo2 from "../../assets/images/logo1.png"
 
 const Navbar = () => {
     const [collapsed, setCollapsed] = useRecoilState(collapsedState);
@@ -37,7 +37,7 @@ const Navbar = () => {
                                 onClick={() => setCollapsed(true)} 
                                 className="navbar-brand"
                             >
-                                <img src={logo1} alt="logo1"  style={{width:"240px", marginTop:"8px"}}/>
+                                <img src={logo2} alt="logo1"  style={{width:"240px", marginTop:"8px"}}/>
                             </Link>
 
                             <button 
@@ -57,14 +57,14 @@ const Navbar = () => {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        {/* <Link 
+                                        <Link 
                                             to="/" 
                                             activeClassName="active"
                                             onClick={() => setCollapsed(true)} 
                                             className="nav-link"
-                                        > */}
-                                          {/* Home  Home <i className='bx bx-chevron-down'></i>
-                                        </Link> */}
+                                        >
+                                          Home {/* Home  Home <i className='bx bx-chevron-down'></i> */}
+                                        </Link> 
 
                                         {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
@@ -350,7 +350,7 @@ const Navbar = () => {
 
                                            <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/web" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -372,7 +372,7 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/software" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -382,7 +382,7 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="/mobile-details" 
+                                                    to="/ecommerce" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -407,7 +407,7 @@ const Navbar = () => {
                                          <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/financial-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -418,7 +418,7 @@ const Navbar = () => {
 
                                            <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/automotive-transportation-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -429,7 +429,7 @@ const Navbar = () => {
 
                                              <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/government-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -440,17 +440,17 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/energy-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
                                                 >
-                                                Energy
+                                                Energy & Utilities
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="/mobile-details" 
+                                                    to="/retail-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -460,12 +460,12 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="/mobile-details" 
+                                                    to="/telecom-details" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
                                                 >
-                                               Telco
+                                               Telecom
                                                 </Link>
                                             </li>
                                            
@@ -537,7 +537,7 @@ const Navbar = () => {
                                           
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/careers" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -548,7 +548,7 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/blog" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -597,7 +597,17 @@ const Navbar = () => {
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/about" 
+                                                    activeClassName="active"
+                                                    onClick={() => setCollapsed(true)}
+                                                    className="nav-link"
+                                                >
+                                                  About Us
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link 
+                                                    to="/choose" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -617,7 +627,7 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/vision" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -627,7 +637,7 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item">
                                                 <Link 
-                                                    to="#" 
+                                                    to="/process" 
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -884,14 +894,14 @@ const Navbar = () => {
                                 </ul>
                               
                                 <div className="others-option d-flex align-items-center">
-                                    <div className="option-item">
+                                    {/* <div className="option-item">
                                         <form className="search-box">
                                             <input type="text" className="input-search" placeholder="Search for anything" />
                                             <button type="submit">
                                                 <i className="flaticon-loupe"></i>
                                             </button>
                                         </form>
-                                    </div>
+                                    </div> */}
 
                                     {/* <div className="option-item">
                                         <Link 
